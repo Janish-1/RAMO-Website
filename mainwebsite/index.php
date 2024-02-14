@@ -49,7 +49,7 @@
       <div class="logo">
         <!-- <h1><a href="index.php">Selecao</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -58,9 +58,10 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#client">Client</a></li>
           <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -76,7 +77,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -211,12 +212,12 @@
               <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
             </a>
           </li>
-          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
               <i class="ri-store-line"></i>
               <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
             </a>
-          </li> -->
+          </li>
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -587,6 +588,31 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <header class="section-header">
+          <h3>Our Clients</h3>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
@@ -763,7 +789,7 @@
     <!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
@@ -853,10 +879,11 @@
         </ul>
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section> -->
+    <!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!-- <section id="team" class="team">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
@@ -941,7 +968,8 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="section-bg">
@@ -1051,39 +1079,39 @@
   <!-- Include Waypoint library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
   <script>
-  // Wrap your code inside DOMContentLoaded event
-  document.addEventListener('DOMContentLoaded', function () {
-    // Define a function to update progress bars
-    function updateProgressBars() {
-      let progressBars = document.querySelectorAll('.progress .progress-bar');
+    // Wrap your code inside DOMContentLoaded event
+    document.addEventListener('DOMContentLoaded', function () {
+      // Define a function to update progress bars
+      function updateProgressBars() {
+        let progressBars = document.querySelectorAll('.progress .progress-bar');
 
-      progressBars.forEach((bar) => {
-        let valuenow = bar.getAttribute('aria-valuenow');
-        bar.style.width = valuenow + '%';
+        progressBars.forEach((bar) => {
+          let valuenow = bar.getAttribute('aria-valuenow');
+          bar.style.width = valuenow + '%';
 
-        // Optional: You can display the percentage inside the progress bar
-        let valSpan = bar.querySelector('.val');
-        if (valSpan) {
-          valSpan.textContent = valuenow + '%';
-        }
-      });
-    }
-
-    // Set up Waypoint for the skills-content element
-    let skillsContent = document.querySelector('.skills-content');
-    if (skillsContent) {
-      new Waypoint({
-        element: skillsContent,
-        offset: '80%',
-        handler: function (direction) {
-          if (direction === 'down') {
-            updateProgressBars();
+          // Optional: You can display the percentage inside the progress bar
+          let valSpan = bar.querySelector('.val');
+          if (valSpan) {
+            valSpan.textContent = valuenow + '%';
           }
-        },
-      });
-    }
-  });
-</script>
+        });
+      }
+
+      // Set up Waypoint for the skills-content element
+      let skillsContent = document.querySelector('.skills-content');
+      if (skillsContent) {
+        new Waypoint({
+          element: skillsContent,
+          offset: '80%',
+          handler: function (direction) {
+            if (direction === 'down') {
+              updateProgressBars();
+            }
+          },
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>

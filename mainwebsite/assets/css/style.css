@@ -163,8 +163,8 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar li:hover > a {
-  background: #ef6603; /* Keep background white when not hovered */
-  box-shadow: 0 0 10px #ef6603; /* Add orange glow on hover */
+  background: #5aaaff; /* Keep background white when not hovered */
+  box-shadow: 0 0 10px #5aaaff; /* Add orange glow on hover */
 }
 
 .navbar .dropdown ul {
@@ -1007,6 +1007,38 @@ section {
   padding: 0;
 }
 
+/* Clients Section
+--------------------------------*/
+#clients {
+  padding: 60px 0;
+}
+
+#clients img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+#clients .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+#clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+
+#clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1615,4 +1647,50 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* Sections Header
+--------------------------------*/
+.section-header h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* Section with background
+--------------------------------*/
+.section-bg {
+  background: #f7f7f7;
 }
