@@ -456,38 +456,58 @@
           <div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">PHP <i class="val">100%</i></span>
+              <span class="skill">Unity(2D/3D) <i class="val">100%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">MERN Stack <i class="val">90%</i></span>
+              <span class="skill">PHP <i class="val">95%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Python <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">MERN Stack <i class="val">85%</i></span>
             </div>
           </div>
 
           <div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">Python <i class="val">80%</i></span>
+              <span class="skill">UI <i class="val">80%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Graphics <i class="val">85%</i></span>
+            </div>
+          </div>         
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">React Native <i class="val">90%</i></span>
+            </div>
+          </div>          
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0"
               aria-valuemax="100">
               <span class="skill">Java <i class="val">75%</i></span>
             </div>
           </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">React Native <i class="val">70%</i></span>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -498,34 +518,34 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3>Facts</h3>
+          <h3>Tasks</h3>
           <p>Our Current Track Record having successful project closing and completion</p>
         </header>
 
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>Clients</p>
+            <p>Years Experience</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+            <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>Projects</p>
+            <p>Team Members</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+            <span data-purecounter-start="0" data-purecounter-end="55" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>Hours Of Support</p>
+            <p>Satisfied Clients</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+            <span data-purecounter-start="0" data-purecounter-end="62" data-purecounter-duration="1"
               class="purecounter"></span>
-            <p>Hard Workers</p>
+            <p>Completed Projects</p>
           </div>
 
         </div>
@@ -1181,21 +1201,19 @@
     <div class="container">
       <h3>RAMO</h3>
       <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence is evident in every project we undertake.</p>      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.facebook.com/ramopvtltd?mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>RAMO</span></strong>. All Rights Reserved
+        &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        Designed by RAMO Pvt Ltd
+        <span>DESIGNED BY RAMO PVT LTD</span>
       </div>
     </div>
   </footer><!-- End Footer -->
