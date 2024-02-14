@@ -94,9 +94,9 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>RAMO</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
-            et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-            doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <p class="animate__animated fanimate__adeInUp">We're an IT firm specializing in web, game, and application
+            development. Our dedicated team crafts
+            innovative solutions, ensuring your digital presence stands out. Let's shape the future together.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -161,21 +161,29 @@
           <h2>About</h2>
           <p>Who we are</p>
         </div>
+        <p>
+          Welcome to RAMO, where innovation meets expertise! We're your go-to IT partner for web, game, and application
+          development.
+          <br><br>
+          In the vast world of web development, we create sleek and functional websites tailored to your unique needs.
+          Our game development
+          team is dedicated to crafting immersive experiences that stand out, and our application development services
+          ensure seamless user experiences.
+          <br><br>
+          At RAMO, we blend creativity with professionalism, turning ideas into digital solutions. Let's elevate your
+          online presence, create engaging
+          games, and develop cutting-edge applications. Join us on this exciting journey!
+        </p>
 
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua.
-            </p>
-            <ul>
+            <!-- <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
+            </ul> -->
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <!-- <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
               voluptate
@@ -183,7 +191,7 @@
               culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -193,44 +201,48 @@
     <section id="features" class="features">
       <div class="container">
 
-        <ul class="nav nav-tabs row d-flex">
+        <ul class="nav nav-tabs row d-flex justify-content-center">
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+              <h4 class="d-none d-lg-block">Our Mission</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
               <i class="ri-body-scan-line"></i>
-              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+              <h4 class="d-none d-lg-block">Our Plan</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
               <i class="ri-sun-line"></i>
-              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+              <h4 class="d-none d-lg-block">Our Vision</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <i class="ri-store-line"></i>
-              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-            </a>
-          </li>
+          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+          <i class="ri-store-line"></i>
+          <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+        </a>
+      </li> -->
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                <h3>Know our Mission</h3>
+                <p>
+                  At the core of our mission is the dedication to providing transformative IT solutions. We strive to
+                  create functional,
+                  engaging, and user-centric products that make a lasting impact. Our mission is to be the go-to IT
+                  partner for those
+                  seeking a perfect blend of innovation, reliability, and personalized service. Join us on this journey
+                  as we turn visions
+                  into reality, one project at a time.
                 </p>
-                <ul>
+                <!-- <ul>
                   <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
                   </li>
@@ -244,7 +256,7 @@
                   velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                   sunt in
                   culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                </p> -->
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="assets/img/features-1.png" alt="" class="img-fluid">
@@ -254,15 +266,14 @@
           <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                <h3>Know our Plan</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
+                  Our strategic plan revolves around a commitment to excellence and continuous growth.
+                  We aim to deliver exceptional services in web, game, and application development, staying ahead of
+                  industry trends.
+                  By fostering a culture of creativity and collaboration, we ensure that our clients receive solutions
+                  that not only meet but exceed their expectations. </p>
+                <!-- <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore
                   magna aliqua.
@@ -276,7 +287,7 @@
                   <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                     aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
                     pariatur.</li>
-                </ul>
+                </ul> -->
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="assets/img/features-2.png" alt="" class="img-fluid">
@@ -286,15 +297,15 @@
           <div class="tab-pane" id="tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <h3>Know our Vision</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                  At RAMO, we envision a future where technology seamlessly integrates with everyday life,
+                  empowering individuals
+                  and businesses to thrive in a digital world. Our vision is to be at the forefront of innovative
+                  solutions, shaping the
+                  landscape of possibilities with cutting-edge technologies.
                 </p>
-                <ul>
+                <!-- <ul>
                   <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
                   </li>
@@ -305,7 +316,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore
                   magna aliqua.
-                </p>
+                </p> -->
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="assets/img/features-3.png" alt="" class="img-fluid">
@@ -354,9 +365,12 @@
         <div class="row" data-aos="zoom-out">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
+            <p> Experience unparalleled excellence with our services. We go beyond expectations, crafting solutions that
+              seamlessly
+              blend innovation and reliability. Embrace a future where your digital aspirations become reality. Join us,
+              where every
+              project is a journey to success. Let's elevate your vision together.
+            </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
@@ -372,48 +386,55 @@
 
         <header class="section-headera wow fadeInUp">
           <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad
-            pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa
-            panatarel.</p>
+          <p>Explore our diverse range of services tailored to meet your every need. We take pride in delivering
+            excellence,
+            striving to exceed expectations with every project.
+          </p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-              occaecati cupiditate non provident</p>
+            <div class="icon"><i class="bi bi-window"></i></div>
+            <h4 class="title"><a href="">Website Development</a></h4>
+            <p class="description">Elevate your online presence with our website development service. We create sleek
+              and functional websites tailored
+              to your unique needs.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat tarad limino ata</p>
+            <div class="icon"><i class="bi bi-phone"></i></div>
+            <h4 class="title"><a href="">Mobile App Development</a></h4>
+            <p class="description">Step into the world of mobile innovation with our app development service. We bring
+              your ideas to life,
+              creating user-friendly and feature-rich mobile applications.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur</p>
+            <div class="icon"><i class="bi bi-droplet"></i></div>
+            <h4 class="title"><a href="">Graphic Designing</a></h4>
+            <p class="description">Make a lasting impression with our graphic designing service. Our creative team turns
+              ideas into visually stunning
+              designs.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum</p>
+            <div class="icon"><i class="bi bi-controller"></i></div>
+            <h4 class="title"><a href="">Game Development</a></h4>
+            <p class="description">Immerse your audience in captivating gaming experiences with our game development
+              service. Our game making capablities
+              ensures your games stand out in the competitive market.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-              voluptatum deleniti atque</p>
+            <div class="icon"><i class="bi bi-window-desktop"></i></div>
+            <h4 class="title"><a href="">Application Development</a></h4>
+            <p class="description">Embrace innovation with our application development service. We design and develop
+              robust applications
+              for both mobile and desktop platforms.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-              soluta nobis est eligendi</p>
+            <div class="icon"><i class="bi bi-shop-window"></i></div>
+            <h4 class="title"><a href="">Digital Marketing</a></h4>
+            <p class="description">Boost your online presence and reach a wider audience with our digital marketing
+              service. We employ
+              strategic approaches to enhance your brand visibility, engage your target audience, and drive results.</p>
           </div>
 
         </div>
@@ -427,8 +448,7 @@
 
         <header class="section-header">
           <h3>Our Skills</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+          <p>Welcome to our Skills Section, a showcase of our technical prowess. Explore our commitment to crafting exceptional digital experiences.</p>
         </header>
 
         <div class="skills-content">
@@ -436,28 +456,35 @@
           <div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">PHP <i class="val">100%</i></span>
             </div>
           </div>
 
           <div class="progress">
             <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">MERN Stack <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Python <i class="val">80%</i></span>
             </div>
           </div>
 
           <div class="progress">
             <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <span class="skill">Java <i class="val">75%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
               aria-valuemax="100">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">React Native <i class="val">70%</i></span>
             </div>
           </div>
 
@@ -465,6 +492,51 @@
 
       </div>
     </section><!-- End Skills Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Facts</h3>
+          <p>Our Current Track Record having successful project closing and completion</p>
+        </header>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+        <!-- <div class="facts-img">
+          <img src="assets/img/facts-img.png" alt="" class="img-fluid">
+        </div> -->
+
+      </div>
+    </section><!-- End Facts Section -->
+
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -480,15 +552,17 @@
           <li data-filter=".filter-app">App</li>
           <li data-filter=".filter-card">Card</li>
           <li data-filter=".filter-web">Web</li>
+          <li data-filter=".filter-game">Game</li>
+          <li data-filter=".filter-digital">Digital Marketing</li>
         </ul>
 
         <div class="row portfolio-container" data-aos="fade-up">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/pujan-path.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Pujanpaath</h4>
+              <p>A Puja Booking Website</p>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -496,45 +570,34 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/portfolio/sportshub.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Sports Hub</h4>
+              <p>Store to buy Helmet and Other Equipments</p>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/swastik.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
+              <h4>Swastik</h4>
+              <p>A Banking App</p>
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
+              <h4>SPA Multivendor</h4>
+              <p>Book Store E-Commerce </p>
               <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -542,42 +605,117 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
+              <h4>Ls drive</h4>
+              <p>Commercial Project </p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Advance Krishi</h4>
+              <p>Agro-Tech App </p>
               <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div class="portfolio-img"><img src="assets/img/portfolio/game1.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
+              <h4>Aliens Quest</h4>
+              <p>Tile-Matching video game </p>
               <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
+              <h4>Rummy</h4>
+              <p>Real Time Rummy</p>
               <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Winzo</h4>
+              <p>Diverse Gameplay</p>
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/graphic1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Diamond</h4>
+              <p>Diamond Waffers </p>
+              <a href="assets/img/portfolio/graphic1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/graphic2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Modware</h4>
+              <p>Cultural Advertisement </p>
+              <a href="assets/img/portfolio/graphic2.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/graphic3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Skill India</h4>
+              <p>NSDC Template Design </p>
+              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
+            <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DigitalMarketting1</h4>
+              <p>Multiuser Ludo Gameplay  </p>
+              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DigitalMarketting2</h4>
+              <p>Real Time Rummy  </p>
+              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DigitalMarketting3</h4>
+              <p>Diverse Gameplay  </p>
+              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -986,7 +1124,7 @@
             <div class="contact-address">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>203,2nd Floor,Shagun Arcade,Indore</address>
             </div>
           </div>
 
@@ -994,7 +1132,7 @@
             <div class="contact-phone">
               <i class="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+919977696444">+91 99776-96444</a></p>
             </div>
           </div>
 
@@ -1002,7 +1140,7 @@
             <div class="contact-email">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@example.com">hr@ramo.co.in</a></p>
             </div>
           </div>
 
@@ -1041,9 +1179,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Selecao</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links">
+      <h3>RAMO</h3>
+      <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence is evident in every project we undertake.</p>      <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -1051,14 +1188,14 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>RAMO</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by RAMO Pvt Ltd
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -1073,6 +1210,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
