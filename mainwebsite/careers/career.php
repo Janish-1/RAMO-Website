@@ -89,35 +89,72 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="career" class="about">
+    <!-- ======= Career Section ======= -->
+    <section id="career" class="career">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
-          <h2>Careeer</h2>
+          <h2>Career</h2>
           <p>Career Form</p>
         </div>
+
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
-            <!-- <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul> -->
+            <div class="container">
+              <div class="text">
+                Career Form
+              </div>
+              <form action="submit_career_form.php" method="post" class="php-email-form">
+                <div class="form-row">
+                  <div class="input-data">
+                    <input type="text" name="name" required>
+                    <div class="underline"></div>
+                    <label for="name">Full Name</label>
+                  </div>
+                  <div class="input-data">
+                    <input type="email" name="email" required>
+                    <div class="underline"></div>
+                    <label for="email">Email Address</label>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="input-data">
+                    <input type="tel" name="contact" required>
+                    <div class="underline"></div>
+                    <label for="contact">Contact Number</label>
+                  </div>
+                  <div class="input-data">
+                    <input type="text" name="category" required>
+                    <div class="underline"></div>
+                    <label for="category">Category/Position</label>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="input-data">
+                    <input type="text" name="experience" required>
+                    <div class="underline"></div>
+                    <label for="experience">Experience</label>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="input-data"><br>
+                    <input type="file" name="cv" accept=".pdf, .doc, .docx" required>
+                    <label for="cv">Upload CV:</label>
+                  </div>
+                </div>
+                <div class="form-row submit-btn">
+                  <div class="input-data">
+                    <div class="inner"></div>
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
-          <!-- <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div> -->
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Career Section -->
 
   </main><!-- End #main -->
 

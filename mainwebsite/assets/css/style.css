@@ -101,7 +101,8 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #000; /* Set text color to black */
+  color: #000;
+  /* Set text color to black */
 }
 
 #header .logo h1 a,
@@ -147,7 +148,8 @@ h6 {
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   font-size: 14px;
-  color: #000; /* Set text color to black */
+  color: #000;
+  /* Set text color to black */
   white-space: nowrap;
   transition: 0.3s;
   border-radius: 50px;
@@ -162,9 +164,11 @@ h6 {
 
 .navbar a:hover,
 .navbar .active,
-.navbar li:hover > a {
-  background: #5aaaff; /* Keep background white when not hovered */
-  box-shadow: 0 0 10px #5aaaff; /* Add orange glow on hover */
+.navbar li:hover>a {
+  background: #5aaaff;
+  /* Keep background white when not hovered */
+  box-shadow: 0 0 10px #5aaaff;
+  /* Add orange glow on hover */
 }
 
 .navbar .dropdown ul {
@@ -200,8 +204,9 @@ h6 {
 
 .navbar .dropdown ul a,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
-  color: #000; /* Set text color to black */
+.navbar .dropdown ul li:hover>a {
+  color: #000;
+  /* Set text color to black */
 }
 
 .navbar .dropdown:hover>ul {
@@ -297,7 +302,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #000;
 }
 
@@ -332,7 +337,7 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #000;
 }
 
@@ -793,7 +798,7 @@ section {
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
-  color:black;
+  color: black;
 }
 
 #skills .progress .skill .val {
@@ -1740,4 +1745,186 @@ section {
 #facts .facts-img {
   text-align: center;
   padding-top: 30px;
+}
+
+/* Careers Section
+-------------------------------- */
+
+#career {
+  margin: 0;
+  padding-top: 80px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#career body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  background: #25466d;
+}
+
+#career .container {
+  max-width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#career .container .text {
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: #25466d;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#career .container form {
+  padding: 30px 0 0 0;
+}
+
+#career .container form .form-row {
+  display: flex;
+  margin: 32px 0;
+}
+
+#career form .form-row .input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+
+#career form .form-row .textarea {
+  height: 70px;
+}
+
+#career .input-data input,
+#career .textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+#career .input-data input:focus~label,
+.textarea textarea:focus~label,
+#career .input-data input:valid~label,
+.textarea textarea:valid~label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
+}
+
+#career .textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+
+#career .input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 20px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#career .textarea label {
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+
+#career .input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+#career .input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+#career .input-data input:focus~.underline:before,
+#career .input-data input:valid~.underline:before,
+#career .textarea textarea:focus~.underline:before,
+#career .textarea textarea:valid~.underline:before {
+  transform: scale(1);
+}
+
+#career .submit-btn .input-data {
+  overflow: hidden;
+  height: 45px !important;
+  width: 25% !important;
+}
+
+#career .submit-btn .input-data .inner {
+  height: 100%;
+  width: 100%;
+  /* Adjusted to 100% */
+  position: absolute;
+  left: 0;
+  /* Adjusted to 0 */
+  background: #25466d;
+  color: black;
+  transition: all 0.4s;
+}
+
+#career .submit-btn .input-data:hover .inner {
+  left: 100%;
+  /* Adjusted to 100% */
+}
+
+#career .submit-btn .input-data input {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  /* Adjusted to 100% */
+}
+
+@media (max-width: 700px) {
+  #career .container .text {
+    font-size: 30px;
+  }
+
+  #career .container form {
+    padding: 10px 0 0 0;
+  }
+
+  #career .container form .form-row {
+    display: block;
+  }
+
+  #career form .form-row .input-data {
+    margin: 35px 0 !important;
+  }
+
+  #career .submit-btn .input-data {
+    width: 40% !important;
+  }
 }
