@@ -1205,6 +1205,7 @@
         <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
+      <a href="./policies/privacy_policy.php"><span>Privacy Policy</span></a>
       <div class="copyright">
         &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
       </div>

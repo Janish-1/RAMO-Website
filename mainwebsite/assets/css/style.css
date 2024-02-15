@@ -793,6 +793,7 @@ section {
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
+  color:black;
 }
 
 #skills .progress .skill .val {
