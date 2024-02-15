@@ -30,6 +30,8 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+  <!-- Include jQuery for AJAX (if not already included) -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Selecao
@@ -104,7 +106,7 @@
               <div class="text">
                 Career Form
               </div>
-              <form action="submit_career_form.php" method="post" class="php-email-form">
+              <form id="careerForm" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <div class="form-row">
                   <div class="input-data">
                     <input type="text" name="name" required>
@@ -112,26 +114,30 @@
                     <label for="name">Full Name</label>
                   </div>
                   <div class="input-data">
-                    <input type="email" name="email" required>
+                    <input type="email" name="mail" required>
                     <div class="underline"></div>
                     <label for="email">Email Address</label>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="tel" name="contact" required>
+                    <input type="tel" name="contact" title="Please enter only numbers" required>
                     <div class="underline"></div>
                     <label for="contact">Contact Number</label>
                   </div>
                   <div class="input-data">
-                    <input type="text" name="category" required>
+                    <label for="category">Category/Position</label><br>
+                    <select name="category" required>
+                      <option value="" disabled selected>Select Category</option>
+                      <option value="position1">Position 1</option>
+                      <option value="position2">Position 2</option>
+                    </select>
                     <div class="underline"></div>
-                    <label for="category">Category/Position</label>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="text" name="experience" required>
+                    <input type="number" name="experience" title="Please enter only numbers" required>
                     <div class="underline"></div>
                     <label for="experience">Experience</label>
                   </div>
@@ -144,8 +150,10 @@
                 </div>
                 <div class="form-row submit-btn">
                   <div class="input-data">
-                    <div class="inner"></div>
                     <button type="submit">Submit</button>
+                  </div>
+                  <div class="input-data">
+                    <button type="button" onclick="clearForm()">Clear Form</button>
                   </div>
                 </div>
               </form>
@@ -235,6 +243,60 @@
         });
       }
     });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('#careerForm').submit(function (e) {
+        e.preventDefault(); // Prevent the form from submitting in the default way
+
+        // Get form data
+        var formData = new FormData(document.getElementById('careerForm'));
+
+        // Your API endpoint URL
+        var apiEndpoint = "http://127.0.0.1:8000/api/createcareer";
+
+        // Use AJAX to submit the form data
+        $.ajax({
+          type: 'POST',
+          url: apiEndpoint,
+          data: formData,
+          dataType: 'json',
+          processData: false,
+          contentType: false,
+          success: function (response) {
+            // Log the response to the console for debugging
+            console.log(response);
+
+            // Check if the response is a string, and if so, parse it as JSON
+            if (typeof response === 'string') {
+              response = JSON.parse(response);
+            }
+
+            if (response.success) {
+              // Data stored successfully, you can redirect or display a success message
+              alert("Form submitted successfully!");
+              document.getElementById("careerForm").reset();
+            } else {
+              // API request failed, handle the error
+              alert("Error: " + (response.error ? response.error : "Unknown error"));
+            }
+          },
+          error: function (xhr, status, error) {
+            // Log detailed error information to the console for debugging
+            console.error(xhr.responseText);
+
+            // Handle AJAX errors
+            alert("AJAX error: " + error);
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    // JavaScript function to clear the form fields
+    function clearForm() {
+      document.getElementById("careerForm").reset();
+    }
   </script>
 </body>
 
