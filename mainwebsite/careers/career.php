@@ -247,9 +247,7 @@
               alert("Form submitted successfully! Check your Email for the Test Code to start the test.");
               document.getElementById("careerForm").reset();
               // // Introduce a delay before redirection (e.g., 1 second)
-              // setTimeout(function () {
-              //   window.location("teststartpage.php");
-              // }, 1000);
+              window.location.href = "/careers/teststartpage.php"
             } else {
               // API request failed, handle the error
               alert("Error: " + (response.error ? response.error : "Unknown error"));
