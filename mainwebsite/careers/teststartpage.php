@@ -106,7 +106,7 @@
                             <div class="text">
                                 Test Form
                             </div>
-                            <form id="testForm" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                            <form id="testForm" method="POST">
                                 <div class="form-row">
                                     <div class="input-data">
                                         <input type="text" name="testid" required>
@@ -138,6 +138,7 @@
                                 <li>Ensure that you are in a quiet and distraction-free environment.</li>
                                 <li>Complete the test independently without collaboration with others.</li>
                                 <li>Follow the specified time limit for each section of the test.</li>
+                                <li>If you Leave the Test Tab in your browser , you will fail immediately.</li>
                             </ul>
                         </div>
                     </div>
@@ -193,23 +194,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script>
         function submitForm() {
+            event.preventDefault();
             // Get the test ID from the input field
-            var testId = $('#testid').val();
+            var testId = $('input[name="testid"]').val();
 
-            // Perform an AJAX request to redirect to another page
+            // Build the URL with the testid parameter
+            var apiUrl = 'http://127.0.0.1:8000/api/redirecttest?testid=' + encodeURIComponent(testId);
+
+            // Perform a GET request
             $.ajax({
-                type: 'POST',
-                url: '/redirecttest', // Update with your actual Laravel route
-                data: {
-                    testid: testId // Fix the case of 'testId' to match the variable name
-                },
-                dataType: 'json', // Specify the expected data type
+                type: 'GET',
+                url: apiUrl,
                 success: function (response) {
                     // Check the response and handle accordingly
                     if (response.success) {
                         // Redirect was successful
-                        window.location.href = response.redirectUrl; // Replace with the actual redirect URL
                         console.log("Success");
+                        window.location.href = response.redirectUrl;
                     } else {
                         // Handle error, show a message, etc.
                         alert(response.message);
@@ -228,7 +229,8 @@
         // JavaScript function to clear the form fields
         function clearForm() {
             document.getElementById("testForm").reset();
-            $('#testIdDisplay').text(''); // Clear the displayed test ID
+            // Assuming you have an element with id 'testIdDisplay' to clear
+            $('#testIdDisplay').text('');
         }
     </script>
 </body>
