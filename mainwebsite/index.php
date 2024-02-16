@@ -757,14 +757,18 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/1.eicher.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/2.kautilya.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/3.somani.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/4.horweiz-pharma.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/5.modware.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/6.peppe.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/7.hoppin.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/8.pratap-constructions.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/9.wurzel-energy.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/10.zerak.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/11.pujan-path.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>

@@ -129,8 +129,8 @@
                     <label for="category">Category/Position</label><br>
                     <select name="category" required>
                       <option value="" disabled selected>Select Category</option>
-                      <option value="position1">Position 1</option>
-                      <option value="position2">Position 2</option>
+                      <option value="Python">Python</option>
+                      <option value="Java">Java</option>
                     </select>
                     <div class="underline"></div>
                   </div>
@@ -154,6 +154,10 @@
                   </div>
                   <div class="input-data">
                     <button type="button" onclick="clearForm()">Clear Form</button>
+                  </div>
+                  <div class="input-link">
+                    <a href="teststartpage.php">Already sent a request? Click here to check and take
+                      the test.</a>
                   </div>
                 </div>
               </form>
@@ -211,40 +215,6 @@
   <!-- Include Waypoint library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
   <script>
-    // Wrap your code inside DOMContentLoaded event
-    document.addEventListener('DOMContentLoaded', function () {
-      // Define a function to update progress bars
-      function updateProgressBars() {
-        let progressBars = document.querySelectorAll('.progress .progress-bar');
-
-        progressBars.forEach((bar) => {
-          let valuenow = bar.getAttribute('aria-valuenow');
-          bar.style.width = valuenow + '%';
-
-          // Optional: You can display the percentage inside the progress bar
-          let valSpan = bar.querySelector('.val');
-          if (valSpan) {
-            valSpan.textContent = valuenow + '%';
-          }
-        });
-      }
-
-      // Set up Waypoint for the skills-content element
-      let skillsContent = document.querySelector('.skills-content');
-      if (skillsContent) {
-        new Waypoint({
-          element: skillsContent,
-          offset: '80%',
-          handler: function (direction) {
-            if (direction === 'down') {
-              updateProgressBars();
-            }
-          },
-        });
-      }
-    });
-  </script>
-  <script>
     $(document).ready(function () {
       $('#careerForm').submit(function (e) {
         e.preventDefault(); // Prevent the form from submitting in the default way
@@ -274,8 +244,12 @@
 
             if (response.success) {
               // Data stored successfully, you can redirect or display a success message
-              alert("Form submitted successfully!");
+              alert("Form submitted successfully! Check your Email for the Test Code to start the test.");
               document.getElementById("careerForm").reset();
+              // // Introduce a delay before redirection (e.g., 1 second)
+              // setTimeout(function () {
+              //   window.location("teststartpage.php");
+              // }, 1000);
             } else {
               // API request failed, handle the error
               alert("Error: " + (response.error ? response.error : "Unknown error"));
