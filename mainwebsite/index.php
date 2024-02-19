@@ -449,65 +449,46 @@
 
         <header class="section-header">
           <h3>Our Skills</h3>
-          <p>Welcome to our Skills Section, a showcase of our technical prowess. Explore our commitment to crafting exceptional digital experiences.</p>
+          <p>Welcome to our Skills Section, a showcase of our technical prowess. Explore our commitment to crafting
+            exceptional digital experiences.</p>
         </header>
 
         <div class="skills-content">
 
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">Unity(2D/3D) <i class="val">100%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="Unity">
+            <i class="fab fa-unity"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">PHP <i class="val">95%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="PHP">
+            <i class="fab fa-php"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">Python <i class="val">90%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="Python">
+            <i class="fab fa-python"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">MERN Stack <i class="val">85%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="Node JS">
+            <i class="fab fa-node-js"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">UI <i class="val">80%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="React JS">
+            <i class="fab fa-react"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
           </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">Graphics <i class="val">85%</i></span>
-            </div>
-          </div>         
+          <div class="icon-container" data-tooltip="UI">
+            <i class="fas fa-desktop"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
+          </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">React Native <i class="val">90%</i></span>
-            </div>
-          </div>          
+          <div class="icon-container" data-tooltip="Graphics">
+            <i class="fas fa-paint-brush"><img src="assets/img/languages/web-design.png" width="150px" height="150px"></i>
+          </div>
 
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-              aria-valuemax="100">
-              <span class="skill">Java <i class="val">75%</i></span>
-            </div>
+          <div class="icon-container" data-tooltip="React Native">
+            <i class="fab fa-react"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
+          </div>
+
+          <div class="icon-container" data-tooltip="Java">
+            <i class="fab fa-java"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
           </div>
         </div>
 
@@ -570,10 +551,10 @@
 
         <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
           <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-          <li data-filter=".filter-game">Game</li>
+          <li data-filter=".filter-app">Application Development</li>
+          <li data-filter=".filter-card">Graphic Designing</li>
+          <li data-filter=".filter-web">Web Development</li>
+          <li data-filter=".filter-game">Game Development</li>
           <li data-filter=".filter-digital">Digital Marketing</li>
         </ul>
 
@@ -713,7 +694,7 @@
             <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>DigitalMarketting1</h4>
-              <p>Multiuser Ludo Gameplay  </p>
+              <p>Multiuser Ludo Gameplay </p>
               <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -724,7 +705,7 @@
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>DigitalMarketting2</h4>
-              <p>Real Time Rummy  </p>
+              <p>Real Time Rummy </p>
               <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -735,7 +716,7 @@
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>DigitalMarketting3</h4>
-              <p>Diverse Gameplay  </p>
+              <p>Diverse Gameplay </p>
               <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
                 class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -768,7 +749,8 @@
             <div class="swiper-slide"><img src="assets/logos/9.wurzel-energy.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/10.zerak.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/11.pujan-path.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt="">
+            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -1205,10 +1187,15 @@
   <footer id="footer">
     <div class="container">
       <h3>RAMO</h3>
-      <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence is evident in every project we undertake.</p>      <div class="social-links">
-        <a href="https://www.facebook.com/ramopvtltd?mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by
+        delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence
+        is evident in every project we undertake.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/ramopvtltd?mibextid=ZbWKwL" class="facebook"><i
+            class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
+            class="bx bxl-linkedin"></i></a>
       </div>
       <a href="./policies/privacy_policy.php"><span>Privacy Policy</span></a>
       <div class="copyright">

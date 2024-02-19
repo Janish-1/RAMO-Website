@@ -786,31 +786,32 @@ section {
   padding: 60px 0;
 }
 
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-  border-radius: 0;
+.icon-container {
+  display: inline-block;
+  font-size: 3em;
+  margin: 80px;
+  position: relative;
 }
 
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-  color: black;
+.icon-container:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(51, 51, 51, 0.8); /* rgba includes an alpha channel (transparency) */
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
 }
 
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: 0.9s;
+.icon-container:hover:before {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*--------------------------------------------------------------
