@@ -454,43 +454,47 @@
         </header>
 
         <div class="skills-content">
+          <center>
 
-          <div class="icon-container" data-tooltip="Unity">
-            <i class="fab fa-unity"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="Unity">
+              <i class="fab fa-unity"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="PHP">
-            <i class="fab fa-php"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="PHP">
+              <i class="fab fa-php"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="Python">
-            <i class="fab fa-python"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="Python">
+              <i class="fab fa-python"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="Node JS">
-            <i class="fab fa-node-js"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="Node JS">
+              <i class="fab fa-node-js"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="React JS">
-            <i class="fab fa-react"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="React JS">
+              <i class="fab fa-react"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="UI">
-            <i class="fas fa-desktop"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="UI">
+              <i class="fas fa-desktop"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="Graphics">
-            <i class="fas fa-paint-brush"><img src="assets/img/languages/web-design.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="Graphics">
+              <i class="fas fa-paint-brush"><img src="assets/img/languages/web-design.png" width="150px"
+                  height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="React Native">
-            <i class="fab fa-react"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="React Native">
+              <i class="fab fa-react"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
+            </div>
 
-          <div class="icon-container" data-tooltip="Java">
-            <i class="fab fa-java"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
-          </div>
+            <div class="icon-container" data-tooltip="Java">
+              <i class="fab fa-java"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
+            </div>
+
         </div>
+        </center>
 
       </div>
     </section><!-- End Skills Section -->
@@ -548,16 +552,14 @@
           <h2>Portfolio</h2>
           <p>What we've done</p>
         </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">Application Development</li>
-          <li data-filter=".filter-card">Graphic Designing</li>
-          <li data-filter=".filter-web">Web Development</li>
-          <li data-filter=".filter-game">Game Development</li>
-          <li data-filter=".filter-digital">Digital Marketing</li>
-        </ul>
-
+          <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Application Development</li>
+            <li data-filter=".filter-card">Graphic Designing</li>
+            <li data-filter=".filter-web">Web Development</li>
+            <li data-filter=".filter-game">Game Development</li>
+            <li data-filter=".filter-digital">Digital Marketing</li>
+          </ul>
         <div class="row portfolio-container" data-aos="fade-up">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web">

@@ -93,8 +93,18 @@
 
     <!-- ======= Career Section ======= -->
     <section id="career" class="career">
-      <div class="container">
 
+      <!-- Popup container -->
+      <div class="popup-container" id="popupContainer">
+        <div class="popup-content">
+          <button class="close-btn" onclick="closePopup()">X</button>
+          <span class="popup-close">&times;</span>
+          <p>If you have already Registered you can check your email for the test link.</p>
+          <br><p>If you have not Registered yet , you are welcome to browse options.</p>
+        </div>
+      </div>
+
+      <div class="container">
         <div class="section-title" data-aos="zoom-out">
           <h2>Career</h2>
           <p>Career Form</p>
@@ -109,25 +119,25 @@
               <form id="careerForm" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" required autocomplete="name">
                     <div class="underline"></div>
                     <label for="name">Full Name</label>
                   </div>
                   <div class="input-data">
-                    <input type="email" name="mail" required>
+                    <input type="email" name="mail" required autocomplete="email">
                     <div class="underline"></div>
                     <label for="email">Email Address</label>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="tel" name="contact" title="Please enter only numbers" required>
+                    <input type="tel" name="contact" title="Please enter only numbers" required autocomplete="tel">
                     <div class="underline"></div>
                     <label for="contact">Contact Number</label>
                   </div>
                   <div class="input-data">
                     <label for="category">Category/Position</label><br>
-                    <select name="category" required>
+                    <select name="category" required autocomplete="category">
                       <option value="" disabled selected>Select Category</option>
                       <option value="Python">Python</option>
                       <option value="Java">Java</option>
@@ -137,14 +147,15 @@
                 </div>
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="number" name="experience" title="Please enter only numbers" required>
+                    <input type="number" name="experience" title="Please enter only numbers" required
+                      autocomplete="experience">
                     <div class="underline"></div>
                     <label for="experience">Experience</label>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="input-data"><br>
-                    <input type="file" name="cv" accept=".pdf, .doc, .docx" required>
+                    <input type="file" name="cv" accept=".pdf, .doc, .docx" required autocomplete="file">
                     <label for="cv">Upload CV:</label>
                   </div>
                 </div>
@@ -156,8 +167,7 @@
                     <button type="button" onclick="clearForm()">Clear Form</button>
                   </div>
                   <div class="input-link">
-                    <a href="teststartpage.php">Already sent a request? Click here to check and take
-                      the test.</a>
+                    <a href="teststartpage.php">Already sent a request? Click here to check and take the test.</a>
                   </div>
                 </div>
               </form>
@@ -269,6 +279,19 @@
     function clearForm() {
       document.getElementById("careerForm").reset();
     }
+  </script>
+  <script>
+    function showPopup() {
+      document.getElementById('popupContainer').style.display = 'flex';
+    }
+
+    function closePopup() {
+      document.getElementById('popupContainer').style.display = 'none';
+    }
+    // Automatically show the popup when the page loads
+    document.addEventListener('DOMContentLoaded', function () {
+      showPopup();
+    });
   </script>
 </body>
 
