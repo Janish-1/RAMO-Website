@@ -111,7 +111,7 @@
         </div>
 
         <div class="row content" data-aos="fade-up">
-          <div class="col-lg-6">
+          <div>
             <div class="container">
               <div class="text">
                 Career Form
@@ -139,8 +139,17 @@
                     <label for="category">Category/Position</label><br>
                     <select name="category" required autocomplete="category">
                       <option value="" disabled selected>Select Category</option>
-                      <option value="Python">Python</option>
-                      <option value="Java">Java</option>
+                      <option value="Python">Senior Full Stack- 5+ Years</option>
+                      <option value="Java">Senior Unity Game Developer</option>
+                      <option value="Java">Game Designer</option>
+                      <option value="Java">Backend Game Developer</option>
+                      <option value="Java">Sales Associate (Telecaller)</option>
+                      <option value="Java">Sales Team Lead</option>
+                      <option value="Java">Sales Manager</option>
+                      <option value="Java">Flutter Developer</option>
+                      <option value="Java">Senior React Native Developer</option>
+                      <option value="Java">Digital Marketing Assistant</option>
+                      <option value="Java">Graphic Designer</option>
                     </select>
                     <div class="underline"></div>
                   </div>
@@ -233,7 +242,7 @@
         var formData = new FormData(document.getElementById('careerForm'));
 
         // Your API endpoint URL
-        var apiEndpoint = "http://127.0.0.1:8000/api/createcareer";
+        var apiEndpoint = "http://crm.ramo.co.in/api/createcareer";
 
         // Use AJAX to submit the form data
         $.ajax({

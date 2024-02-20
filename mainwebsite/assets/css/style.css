@@ -1779,7 +1779,7 @@ section {
 
 #career .container {
   background: #fff;
-  width: 80vw;
+  width: 100%;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1974,7 +1974,7 @@ section {
 }
 
 .close-btn {
-  align-items:flex-end;
+  align-items: flex-end;
 }
 
 /* Test Section
