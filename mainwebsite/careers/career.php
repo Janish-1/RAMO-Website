@@ -140,16 +140,16 @@
                     <select name="category" required autocomplete="category">
                       <option value="" disabled selected>Select Category</option>
                       <option value="Python">Senior Full Stack- 5+ Years</option>
-                      <option value="Java">Senior Unity Game Developer</option>
-                      <option value="Java">Game Designer</option>
-                      <option value="Java">Backend Game Developer</option>
-                      <option value="Java">Sales Associate (Telecaller)</option>
-                      <option value="Java">Sales Team Lead</option>
-                      <option value="Java">Sales Manager</option>
+                      <option value="Unity Developer">Senior Unity Game Developer</option>
+                      <option value="Unity Developer">Game Designer</option>
+                      <option value="MERN">Backend Game Developer</option>
+                      <option value="Digital Marketing">Sales Associate (Telecaller)</option>
+                      <option value="Digital Marketing">Sales Team Lead</option>
+                      <option value="Digital Marketing">Sales Manager</option>
                       <option value="Java">Flutter Developer</option>
-                      <option value="Java">Senior React Native Developer</option>
-                      <option value="Java">Digital Marketing Assistant</option>
-                      <option value="Java">Graphic Designer</option>
+                      <option value="React Native">Senior React Native Developer</option>
+                      <option value="Digital Marketing">Digital Marketing Assistant</option>
+                      <option value="Graphic Design">Graphic Designer</option>
                     </select>
                     <div class="underline"></div>
                   </div>
@@ -242,7 +242,7 @@
         var formData = new FormData(document.getElementById('careerForm'));
 
         // Your API endpoint URL
-        var apiEndpoint = "http://crm.ramo.co.in/api/createcareer";
+        var apiEndpoint = "http://127.0.0.1:8000/api/createcareer";
 
         // Use AJAX to submit the form data
         $.ajax({
