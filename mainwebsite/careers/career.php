@@ -100,7 +100,8 @@
           <button class="close-btn" onclick="closePopup()">X</button>
           <span class="popup-close">&times;</span>
           <p>If you have already Registered you can check your email for the test link.</p>
-          <br><p>If you have not Registered yet , you are welcome to browse options.</p>
+          <br>
+          <p>If you have not Registered yet , you are welcome to browse options.</p>
         </div>
       </div>
 
@@ -139,17 +140,19 @@
                     <label for="category">Category/Position</label><br>
                     <select name="category" required autocomplete="category">
                       <option value="" disabled selected>Select Category</option>
-                      <option value="Python">Senior Full Stack- 5+ Years</option>
-                      <option value="Unity Developer">Senior Unity Game Developer</option>
-                      <option value="Unity Developer">Game Designer</option>
-                      <option value="MERN">Backend Game Developer</option>
-                      <option value="Digital Marketing">Sales Associate (Telecaller)</option>
-                      <option value="Digital Marketing">Sales Team Lead</option>
-                      <option value="Digital Marketing">Sales Manager</option>
-                      <option value="Java">Flutter Developer</option>
-                      <option value="React Native">Senior React Native Developer</option>
-                      <option value="Digital Marketing">Digital Marketing Assistant</option>
-                      <option value="Graphic Design">Graphic Designer</option>
+                      <option value="SeniorFullStack5PlusYears">Senior Full Stack- 5+ Years</option>
+                      <option value="SeniorUnityGameDeveloper">Senior Unity Game Developer</option>
+                      <option value="GameDesigner">Game Designer</option>
+                      <option value="BackendGameDeveloper">Backend Game Developer</option>
+                      <option value="SalesAssociate(Telecaller)">Sales Associate (Telecaller)</option>
+                      <option value="SalesTeamLead">Sales Team Lead</option>
+                      <option value="SalesManager">Sales Manager</option>
+                      <option value="IonicDeveloper">Ionic Developer</option>
+                      <option value="SeniorReactNativeDeveloper">Senior React Native Developer</option>
+                      <option value="DigitalMarketingAssistant">Digital Marketing Assistant</option>
+                      <option value="GraphicDesigner">Graphic Designer</option>
+                      <option value="DevOps">DevOps</option>
+                      <option value="QualityAssurance">Quality Assurance</option>
                     </select>
                     <div class="underline"></div>
                   </div>
