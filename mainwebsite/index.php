@@ -397,42 +397,42 @@
 
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-window"></i></div>
-            <h4 class="title"><a href="">Website Development</a></h4>
+            <h4 class="title"><a href="pages/service_a.php">Website Development</a></h4>
             <p class="description">Elevate your online presence with our website development service. We create sleek
               and functional websites tailored
               to your unique needs.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-phone"></i></div>
-            <h4 class="title"><a href="">Mobile App Development</a></h4>
+            <h4 class="title"><a href="pages/service_b.php">Mobile App Development</a></h4>
             <p class="description">Step into the world of mobile innovation with our app development service. We bring
               your ideas to life,
               creating user-friendly and feature-rich mobile applications.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-droplet"></i></div>
-            <h4 class="title"><a href="">Graphic Designing</a></h4>
+            <h4 class="title"><a href="pages/service_c.php">Graphic Designing</a></h4>
             <p class="description">Make a lasting impression with our graphic designing service. Our creative team turns
               ideas into visually stunning
               designs.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-controller"></i></div>
-            <h4 class="title"><a href="">Game Development</a></h4>
+            <h4 class="title"><a href="pages/service_d.php">Game Development</a></h4>
             <p class="description">Immerse your audience in captivating gaming experiences with our game development
               service. Our game making capablities
               ensures your games stand out in the competitive market.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-window-desktop"></i></div>
-            <h4 class="title"><a href="">Application Development</a></h4>
+            <h4 class="title"><a href="pages/service_e.php">Application Development</a></h4>
             <p class="description">Embrace innovation with our application development service. We design and develop
               robust applications
               for both mobile and desktop platforms.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-shop-window"></i></div>
-            <h4 class="title"><a href="">Digital Marketing</a></h4>
+            <h4 class="title"><a href="pages/service_f.php">Digital Marketing</a></h4>
             <p class="description">Boost your online presence and reach a wider audience with our digital marketing
               service. We employ
               strategic approaches to enhance your brand visibility, engage your target audience, and drive results.</p>
@@ -768,7 +768,8 @@
             <div class="swiper-slide"><img src="assets/logos/9.wurzel-energy.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/10.zerak.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/11.pujan-path.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt="">
+            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/13.our_logo.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -1216,6 +1217,7 @@
         <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
             class="bx bxl-linkedin"></i></a>
+        <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
       </div>
       <a href="./policies/privacy_policy.php"><span>Privacy Policy</span></a>
       <div class="copyright">

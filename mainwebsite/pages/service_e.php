@@ -30,8 +30,6 @@
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet">
-    <!-- Include jQuery for AJAX (if not already included) -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <!-- =======================================================
   * Template Name: Selecao
@@ -61,7 +59,7 @@
                     <li><a class="nav-link scrollto" href="../index.php#services">Services</a></li>
                     <li><a class="nav-link scrollto " href="../index.php#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="../index.php#clients">Client</a></li>
-                    <li><a class="nav-link scrollto" href="career.php">Careers</a></li>
+                    <li><a class="nav-link scrollto" href="../careers/career.php#career">Careers</a></li>
                     <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
                     <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -91,60 +89,65 @@
 
     <main id="main">
 
-        <!-- ======= Test Section ======= -->
-        <section id="testform" class="testform">
-            <div class="container">
+        <!-- ======= Service Details Section ======= -->
+        <section class="services">
+            <div class="container" style="margin-top: 50px;">
 
                 <div class="section-title" data-aos="zoom-out">
-                    <h2>Test</h2>
-                    <p>Test Form</p>
+                    <h2>Application Development</h2>
+                    <p>Transform your ideas into powerful and user-friendly applications</p>
                 </div>
 
-                <div class="row content" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="container">
-                            <div class="text">
-                                Test Form
-                            </div>
-                            <form id="testForm" method="POST">
-                                <div class="form-row">
-                                    <div class="input-data">
-                                        <input type="text" name="testid" required>
-                                        <div class="underline"></div>
-                                        <label for="test_id">Test ID</label>
-                                    </div>
-                                </div>
-                                <div class="form-row submit-btn">
-                                    <div class="input-data">
-                                        <button type="submit" onclick="submitForm()">Submit</button>
-                                    </div>
-                                    <div class="input-data">
-                                        <button type="button" onclick="clearForm()">Clear Form</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up">
+                        <!-- Include an image or visual representation of application development -->
+                        <img src="../assets/img/application-development.png" class="img-fluid"
+                            alt="Application Development Image">
                     </div>
-                </div>
-                <!-- Guidelines Section -->
-                <div class="row content" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="container">
-                            <div class="text">
-                                Test Guidelines
-                            </div>
-                            <ul>
-                                <li>Do not use any external resources or aids during the test.</li>
-                                <li>Ensure that you are in a quiet and distraction-free environment.</li>
-                                <li>Complete the test independently without collaboration with others.</li>
-                                <li>Follow the specified time limit for each section of the test.</li>
-                                <li>If you Leave the Test Tab in your browser , you will fail immediately.</li>
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Include detailed information about application development -->
+                        <h3>What We Offer:</h3>
+                        <p>At RAMO Pvt Ltd, we specialize in crafting innovative and robust applications tailored
+                            to meet
+                            your unique needs. Our expert development team is dedicated to turning your ideas into
+                            reality.</p>
+
+                        <h3>Key Features:</h3>
+                        <h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bx bx-check-double"></i> Customized application development</li><br>
+                                <li><i class="bx bx-check-double"></i> Cross-platform compatibility</li><br>
+                                <li><i class="bx bx-check-double"></i> User-friendly interfaces</li><br>
+                                <li><i class="bx bx-check-double"></i> Scalable and flexible architecture</li><br>
+                                <li><i class="bx bx-check-double"></i> Integration with third-party services</li><br>
+                                <li><i class="bx bx-check-double"></i> Robust security measures</li><br>
+                                <!-- Add more features as needed -->
                             </ul>
+                        </h5>
+
+                        <h3>Why Choose Our Application Development Services?</h3>
+                        <p>Experience the following advantages when you partner with us:</p>
+                        <h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bx bx-check-double"></i> Timely delivery and project milestones</li><br>
+                                <li><i class="bx bx-check-double"></i> Collaboration with experienced developers</li>
+                                <br>
+                                <li><i class="bx bx-check-double"></i> Transparent communication and project updates
+                                </li><br>
+                                <li><i class="bx bx-check-double"></i> Ongoing support and maintenance</li><br>
+                                <!-- Add more points as needed -->
+                            </ul>
+                        </h5>
+
+                        <!-- Include a call-to-action button or contact information -->
+                        <div class="mt-4">
+                            <a href="../pages/serviceform.php" class="btn btn-primary">Start Your Project Now!</a>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </section><!-- End Career Section -->
+        </section><!-- End Service Details Section -->
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -194,47 +197,6 @@
     <script src="../assets/js/main.js"></script>
     <!-- Include Waypoint library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script>
-        function submitForm() {
-            event.preventDefault();
-            // Get the test ID from the input field
-            var testId = $('input[name="testid"]').val();
-
-            // Build the URL with the testid parameter
-            var apiUrl = 'http://127.0.0.1:8000/api/redirecttest?testid=' + encodeURIComponent(testId);
-
-            // Perform a GET request
-            $.ajax({
-                type: 'GET',
-                url: apiUrl,
-                success: function (response) {
-                    // Check the response and handle accordingly
-                    if (response.success) {
-                        // Redirect was successful
-                        console.log("Success");
-                        window.location.href = response.redirectUrl;
-                    } else {
-                        // Handle error, show a message, etc.
-                        alert(response.message);
-                        console.log("Fail");
-                    }
-                },
-                error: function (xhr, status, error) {
-                    // Handle AJAX error
-                    var errorMessage = xhr.responseJSON ? xhr.responseJSON.message : 'An error occurred during the AJAX request.';
-                    alert(errorMessage);
-                    console.log("Fail");
-                }
-            });
-        }
-
-        // JavaScript function to clear the form fields
-        function clearForm() {
-            document.getElementById("testForm").reset();
-            // Assuming you have an element with id 'testIdDisplay' to clear
-            $('#testIdDisplay').text('');
-        }
-    </script>
 </body>
 
 </html>

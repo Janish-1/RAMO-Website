@@ -30,8 +30,6 @@
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet">
-    <!-- Include jQuery for AJAX (if not already included) -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <!-- =======================================================
   * Template Name: Selecao
@@ -61,7 +59,7 @@
                     <li><a class="nav-link scrollto" href="../index.php#services">Services</a></li>
                     <li><a class="nav-link scrollto " href="../index.php#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="../index.php#clients">Client</a></li>
-                    <li><a class="nav-link scrollto" href="career.php">Careers</a></li>
+                    <li><a class="nav-link scrollto" href="../careers/career.php#career">Careers</a></li>
                     <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
                     <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -91,60 +89,64 @@
 
     <main id="main">
 
-        <!-- ======= Test Section ======= -->
-        <section id="testform" class="testform">
-            <div class="container">
+        <!-- ======= Service Details Section ======= -->
+        <section class="services">
+            <div class="container" style="margin-top: 50px;">
 
                 <div class="section-title" data-aos="zoom-out">
-                    <h2>Test</h2>
-                    <p>Test Form</p>
+                    <h2>Swastik - Banking App</h2>
+                    <p>Explore the features of our comprehensive banking Web application</p>
                 </div>
 
-                <div class="row content" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="container">
-                            <div class="text">
-                                Test Form
-                            </div>
-                            <form id="testForm" method="POST">
-                                <div class="form-row">
-                                    <div class="input-data">
-                                        <input type="text" name="testid" required>
-                                        <div class="underline"></div>
-                                        <label for="test_id">Test ID</label>
-                                    </div>
-                                </div>
-                                <div class="form-row submit-btn">
-                                    <div class="input-data">
-                                        <button type="submit" onclick="submitForm()">Submit</button>
-                                    </div>
-                                    <div class="input-data">
-                                        <button type="button" onclick="clearForm()">Clear Form</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up">
+                        <!-- Include an image or visual representation of the service -->
+                        <img src="../assets/img/swastik-web.png" class="img-fluid"
+                            alt="Swastik Banking App Image"><br><br>
+                        <img src="../assets/img/swastik-mobile.png" class="img-fluid" alt="Swastik Banking App Image">
                     </div>
-                </div>
-                <!-- Guidelines Section -->
-                <div class="row content" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="container">
-                            <div class="text">
-                                Test Guidelines
-                            </div>
-                            <ul>
-                                <li>Do not use any external resources or aids during the test.</li>
-                                <li>Ensure that you are in a quiet and distraction-free environment.</li>
-                                <li>Complete the test independently without collaboration with others.</li>
-                                <li>Follow the specified time limit for each section of the test.</li>
-                                <li>If you Leave the Test Tab in your browser , you will fail immediately.</li>
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Include detailed information about the service -->
+                        <h3>Key Features:</h3>
+                        <h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bx bx-check-double"></i> User-friendly and intuitive interface</li><br>
+                                <li><i class="bx bx-check-double"></i> Secure and robust transaction processing</li><br>
+                                <li><i class="bx bx-check-double"></i> Multi-account management</li><br>
+                                <li><i class="bx bx-check-double"></i> Bill payments and fund transfers</li><br>
+                                <li><i class="bx bx-check-double"></i> Real-time account balance updates</li><br>
+                                <li><i class="bx bx-check-double"></i> Account statement and transaction history</li>
+                                <br>
+                                <li><i class="bx bx-check-double"></i> Alerts and notifications for account activities
+                                </li><br>
                             </ul>
+                        </h5>
+
+                        <h3>Why Choose Swastik Banking App?</h3>
+                        <p>Swastik offers a cutting-edge banking app with the following advantages:</p>
+                        <h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bx bx-check-double"></i> Advanced security measures for data protection
+                                </li><br>
+                                <li><i class="bx bx-check-double"></i> Seamless and hassle-free banking experience</li>
+                                <br>
+                                <li><i class="bx bx-check-double"></i> Dedicated customer support for assistance</li>
+                                <br>
+                                <li><i class="bx bx-check-double"></i> Regular updates with new features and
+                                    improvements</li><br>
+                                <!-- Add more points as needed -->
+                            </ul>
+                        </h5>
+
+                        <!-- Include a call-to-action button or contact information -->
+                        <div class="mt-4">
+                            <a href="../pages/serviceform.php" class="btn btn-primary">Create your Website Now!</a>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </section><!-- End Career Section -->
+        </section><!-- End Service Details Section -->
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -163,6 +165,7 @@
                 <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
                         class="bx bxl-linkedin"></i></a>
                 <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+
             </div>
             <a href="../policies/privacy_policy.php">Privacy Policy</a>
             <div class="copyright">
@@ -194,47 +197,6 @@
     <script src="../assets/js/main.js"></script>
     <!-- Include Waypoint library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script>
-        function submitForm() {
-            event.preventDefault();
-            // Get the test ID from the input field
-            var testId = $('input[name="testid"]').val();
-
-            // Build the URL with the testid parameter
-            var apiUrl = 'http://127.0.0.1:8000/api/redirecttest?testid=' + encodeURIComponent(testId);
-
-            // Perform a GET request
-            $.ajax({
-                type: 'GET',
-                url: apiUrl,
-                success: function (response) {
-                    // Check the response and handle accordingly
-                    if (response.success) {
-                        // Redirect was successful
-                        console.log("Success");
-                        window.location.href = response.redirectUrl;
-                    } else {
-                        // Handle error, show a message, etc.
-                        alert(response.message);
-                        console.log("Fail");
-                    }
-                },
-                error: function (xhr, status, error) {
-                    // Handle AJAX error
-                    var errorMessage = xhr.responseJSON ? xhr.responseJSON.message : 'An error occurred during the AJAX request.';
-                    alert(errorMessage);
-                    console.log("Fail");
-                }
-            });
-        }
-
-        // JavaScript function to clear the form fields
-        function clearForm() {
-            document.getElementById("testForm").reset();
-            // Assuming you have an element with id 'testIdDisplay' to clear
-            $('#testIdDisplay').text('');
-        }
-    </script>
 </body>
 
 </html>

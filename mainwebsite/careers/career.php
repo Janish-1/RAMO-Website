@@ -195,7 +195,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-    <h3 class="shattered-effect"><img src="../assets/img/ramo-white.png" alt="" class="img-fluid" width="300px" height="300px"></h3>
+      <h3 class="shattered-effect"><img src="../assets/img/ramo-white.png" alt="" class="img-fluid" width="300px"
+          height="300px"></h3>
       <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by
         delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence
         is evident in every project we undertake.</p>
@@ -205,6 +206,8 @@
         <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
             class="bx bxl-linkedin"></i></a>
+        <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+
       </div>
       <a href="../policies/privacy_policy.php">Privacy Policy</a>
       <div class="copyright">

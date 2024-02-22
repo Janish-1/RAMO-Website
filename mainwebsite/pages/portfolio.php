@@ -90,14 +90,15 @@
     <main id="main">
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
+        <section class="portfolio">
             <div class="container" style="margin-top:50px">
 
                 <div class="section-title" data-aos="zoom-out">
                     <h2>Portfolio</h2>
                     <p>What we've done</p>
                 </div>
-                <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up">
+                <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up"
+                    style="overflow:scroll;">
                     <li data-filter="*" class="filter-active">All</li>
                     <li data-filter=".filter-app">Application Development</li>
                     <li data-filter=".filter-card">Graphic Designing</li>
@@ -134,7 +135,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-img"><img src="../assets/img/portfolio/swastik.png" class="img-fluid" alt="">
+                        <div class="portfolio-img"><img src="../assets/img/portfolio/swastik.png" class="img-fluid"
+                                alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>Swastik</h4>
@@ -173,7 +175,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="../assets/img/portfolio/krishi.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-img"><img src="../assets/img/portfolio/krishi.jpg" class="img-fluid"
+                                alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>Advance Krishi</h4>
@@ -186,7 +189,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-                        <div class="portfolio-img"><img src="../assets/img/portfolio/game1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-img"><img src="../assets/img/portfolio/game1.jpg" class="img-fluid"
+                                alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>Aliens Quest</h4>
@@ -262,7 +266,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
-                        <div class="portfolio-img"><img src="../assets/img/portfolio/krishi.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-img"><img src="../assets/img/portfolio/krishi.jpg" class="img-fluid"
+                                alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>DigitalMarketting1</h4>
@@ -322,8 +327,10 @@
                 <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
                         class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+
             </div>
-            <a href="#">Privacy Policy</a>
+            <a href="../policies/privacy_policy.php">Privacy Policy</a>
             <div class="copyright">
                 &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
             </div>
