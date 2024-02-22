@@ -552,181 +552,198 @@
           <h2>Portfolio</h2>
           <p>What we've done</p>
         </div>
-          <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Application Development</li>
-            <li data-filter=".filter-card">Graphic Designing</li>
-            <li data-filter=".filter-web">Web Development</li>
-            <li data-filter=".filter-game">Game Development</li>
-            <li data-filter=".filter-digital">Digital Marketing</li>
-          </ul>
-        <div class="row portfolio-container" data-aos="fade-up">
+        <h3><a href="pages/portfolio.php" style="color:blue;">See All</a></h3>
+        <div class="row" data-aos="fade-up">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-app filter-web">
+                <div class="portfolio-img"><img src="assets/img/portfolio/pujan-path.png" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Pujanpaath</h4>
+                  <p>A Puja Booking Website</p>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/pujan-path.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Pujanpaath</h4>
-              <p>A Puja Booking Website</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-web">
+                <div class="portfolio-img"><img src="assets/img/portfolio/sportshub.png" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Sports Hub</h4>
+                  <p>Store to buy Helmet and Other Equipments</p>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/sportshub.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Sports Hub</h4>
-              <p>Store to buy Helmet and Other Equipments</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-web">
+                <div class="portfolio-img"><img src="assets/img/portfolio/swastik.png" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Swastik</h4>
+                  <p>A Banking App</p>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/swastik.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Swastik</h4>
-              <p>A Banking App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-web">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>SPA Multivendor</h4>
+                  <p>Book Store E-Commerce </p>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>SPA Multivendor</h4>
-              <p>Book Store E-Commerce </p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-app">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Ls drive</h4>
+                  <p>Commercial Project </p>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Ls drive</h4>
-              <p>Commercial Project </p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-app">
+                <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Advance Krishi</h4>
+                  <p>Agro-Tech App </p>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Advance Krishi</h4>
-              <p>Agro-Tech App </p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-game">
+                <div class="portfolio-img"><img src="assets/img/portfolio/game1.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Aliens Quest</h4>
+                  <p>Tile-Matching video game </p>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-            <div class="portfolio-img"><img src="assets/img/portfolio/game1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Aliens Quest</h4>
-              <p>Tile-Matching video game </p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-game">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Rummy</h4>
+                  <p>Real Time Rummy</p>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-game">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Winzo</h4>
+                  <p>Diverse Gameplay</p>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-card">
+                <div class="portfolio-img"><img src="assets/img/portfolio/graphic1.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Diamond</h4>
+                  <p>Diamond Waffers </p>
+                  <a href="assets/img/portfolio/graphic1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Rummy</h4>
-              <p>Real Time Rummy</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Winzo</h4>
-              <p>Diverse Gameplay</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/graphic1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Diamond</h4>
-              <p>Diamond Waffers </p>
-              <a href="assets/img/portfolio/graphic1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-card">
+                <div class="portfolio-img"><img src="assets/img/portfolio/graphic2.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Modware</h4>
+                  <p>Cultural Advertisement </p>
+                  <a href="assets/img/portfolio/graphic2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/graphic2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Modware</h4>
-              <p>Cultural Advertisement </p>
-              <a href="assets/img/portfolio/graphic2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-card">
+                <div class="portfolio-img"><img src="assets/img/portfolio/graphic3.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>Skill India</h4>
+                  <p>NSDC Template Design </p>
+                  <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/graphic3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Skill India</h4>
-              <p>NSDC Template Design </p>
-              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-digital">
+                <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>DigitalMarketting1</h4>
+                  <p>Multiuser Ludo Gameplay </p>
+                  <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
-            <div class="portfolio-img"><img src="assets/img/portfolio/krishi.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>DigitalMarketting1</h4>
-              <p>Multiuser Ludo Gameplay </p>
-              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-digital">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>DigitalMarketting2</h4>
+                  <p>Real Time Rummy </p>
+                  <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>DigitalMarketting2</h4>
-              <p>Real Time Rummy </p>
-              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="col-lg-4 col-md-6 swiper-slide portfolio-item filter-digital">
+                <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>DigitalMarketting3</h4>
+                  <p>Diverse Gameplay </p>
+                  <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-digital">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>DigitalMarketting3</h4>
-              <p>Diverse Gameplay </p>
-              <a href="assets/img/portfolio/graphic3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -1188,7 +1205,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3 class="shattered-effect"><img src="assets/img/ramo-white.png" alt="" class="img-fluid" width="300px" height="300px"></h3>
+      <h3 class="shattered-effect"><img src="assets/img/ramo-white.png" alt="" class="img-fluid" width="300px"
+          height="300px"></h3>
       <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by
         delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence
         is evident in every project we undertake.</p>

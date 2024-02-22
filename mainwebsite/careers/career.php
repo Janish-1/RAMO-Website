@@ -195,7 +195,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>RAMO</h3>
+    <h3 class="shattered-effect"><img src="../assets/img/ramo-white.png" alt="" class="img-fluid" width="300px" height="300px"></h3>
       <p>Welcome to RAMO, your trusted partner in innovative IT solutions. We strive to exceed expectations by
         delivering cutting-edge technologies, tailored to meet your unique business needs. Our commitment to excellence
         is evident in every project we undertake.</p>
