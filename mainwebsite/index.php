@@ -95,43 +95,13 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>RAMO</span></h2>
+          <img src="assets/img/hero-img-removebg-preview.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
           <p class="animate__animated fanimate__adeInUp">We're an IT firm specializing in web, game, and application
             development. Our dedicated team crafts
             innovative solutions, ensuring your digital presence stands out. Let's shape the future together.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
-
-      <!-- Slide 2 -->
-      <!-- <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
-            et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-            doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-        </div>
-      </div> -->
-
-      <!-- Slide 3 -->
-      <!-- <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
-            et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-            doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-        </div>
-      </div> -->
-
-      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a> -->
-
     </div>
 
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -151,7 +121,6 @@
     </svg>
 
   </section><!-- End Hero -->
-
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -768,7 +737,8 @@
             <div class="swiper-slide"><img src="assets/logos/9.wurzel-energy.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/10.zerak.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/11.pujan-path.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt="">
+            </div>
             <div class="swiper-slide"><img src="assets/logos/13.our_logo.png" class="img-fluid" alt="">
             </div>
           </div>
@@ -794,13 +764,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  I'm impressed with the quality of service provided by RAMO Pvt Ltd. Their attention to detail and
+                  professionalism made my experience smooth and enjoyable. I highly recommend their services.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/testimonials/testimonial-sil-1.png" class="testimonial-img" alt="">
+                <h3>David Smith</h3>
+                <h4>Software Engineer</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -808,13 +778,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  RAMO Pvt Ltd exceeded my expectations. Their innovative solutions and responsive team made our project
+                  a success. I'm grateful for their expertise and dedication to delivering top-notch services.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/testimonials/testimonial-sil-2.png" class="testimonial-img" alt="">
+                <h3>Michael Johnson</h3>
+                <h4>Business Analyst</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -822,13 +792,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Working with RAMO Pvt Ltd has been a pleasure. Their commitment to excellence and timely delivery
+                  impressed me. I highly recommend their services to anyone seeking reliable and efficient solutions.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/testimonials/testimonial-sil2.webp" class="testimonial-img" alt="">
+                <h3>Christopher Brown</h3>
+                <h4>IT Manager</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -836,13 +806,14 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  RAMO Pvt Ltd stands out for their commitment to customer satisfaction. The team is dedicated, and
+                  their
+                  services are of the highest quality. I'm glad I chose them for our project.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonials/testimonial-3.png" class="testimonial-img" alt="">
+                <h3>Thomas Miller</h3>
+                <h4>Marketing Specialist</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -850,16 +821,15 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  RAMO Pvt Ltd's services are top-notch. Their attention to detail and commitment to excellence made a
+                  significant impact on our project. I highly recommend their expertise to others in need.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/testimonials/testimonial-4.png" class="testimonial-img" alt="">
+                <h3>William Turner</h3>
+                <h4>Project Manager</h4>
               </div>
             </div><!-- End testimonial item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
