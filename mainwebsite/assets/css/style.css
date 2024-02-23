@@ -2583,8 +2583,7 @@ section {
 }
 
 
-/* Blog Section
---------------------------------*/
+/* Blog Section -------------------------------- */
 @media (max-width: 991px) {
   #blog .block-blog {
     margin-bottom: 30px;
@@ -2598,7 +2597,8 @@ section {
 #blog .block-blog .content-blog {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
-  min-height: 125px;
+  height: 200px; /* Set a maximum height for the content */
+  overflow: hidden;
   padding: 20px 10px;
   width: 100%;
 }
@@ -2610,6 +2610,11 @@ section {
   font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for text overflow */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Adjust the number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 #blog .block-blog .content-blog h4 a {
@@ -2619,7 +2624,7 @@ section {
 }
 
 #blog .block-blog .content-blog h4 a:hover {
-  color: #71c55d;
+  color: #5aaaff;
 }
 
 #blog .block-blog .content-blog>span {
@@ -2638,5 +2643,5 @@ section {
 }
 
 #blog .block-blog .content-blog a.readmore:hover {
-  color: #71c55d;
+  color: #5aaaff;
 }
