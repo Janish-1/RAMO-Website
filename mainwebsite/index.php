@@ -103,7 +103,8 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>RAMO</span></h2>
-          <img src="assets/img/hero-img-removebg-preview_s6howa.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+          <img src="assets/img/hero-img-removebg-preview_s6howa.png" alt="Hero Imgs" data-aos="zoom-out"
+            data-aos-delay="100">
           <br>
           <div class="btns">
             <div class="social-links">
@@ -438,7 +439,7 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <!-- Feature Block 1 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-4">
             <a href="pages/service_a.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/paint-palette.svg" alt="img">
@@ -450,20 +451,19 @@
           </div>
 
           <!-- Feature Block 2 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-4">
             <a href="pages/service_b.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/code.svg" alt="img">
                 <h4>Mobile App Development</h4>
                 <p>Step into the world of mobile innovation with our app development service. We bring your ideas to
-                  life,
-                  creating user-friendly and feature-rich mobile applications.</p>
+                  life, creating user-friendly and feature-rich mobile applications.</p>
               </div>
             </a>
           </div>
 
           <!-- Feature Block 3 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-4">
             <a href="pages/service_c.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/design-tool.svg" alt="img">
@@ -475,7 +475,7 @@
           </div>
 
           <!-- Feature Block 4 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
             <a href="pages/service_d.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/asteroid.svg" alt="img">
@@ -487,20 +487,19 @@
           </div>
 
           <!-- Feature Block 5 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
             <a href="pages/service_e.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/cloud-computing.svg" alt="img">
                 <h4>Application Development</h4>
                 <p>Embrace innovation with our application development service. We design and develop robust
-                  applications
-                  for both mobile and desktop platforms.</p>
+                  applications for both mobile and desktop platforms.</p>
               </div>
             </a>
           </div>
 
           <!-- Feature Block 6 -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
             <a href="pages/service_f.php" class="feature-link">
               <div class="feature-block">
                 <img src="assets/img/svg/planet.svg" alt="img">
@@ -512,6 +511,7 @@
             </a>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <!-- End Features Section -->
@@ -551,43 +551,54 @@
 
         <div class="skills-content">
           <center>
-
-            <div class="icon-container" data-tooltip="Unity">
-              <i class="fab"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
+            <!-- Tooltip container -->
+            <div class="tooltip-container">
+              <div class="tooltip" id="Unity">Unity</div>
+              <div class="icon-container" data-tooltip="Unity">
+                <div class="text-box">Unity</div>
+                <i class="fab"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="PHP">PHP</div>
+              <div class="icon-container" data-tooltip="PHP">
+                <div class="text-box">PHP</div>
+                <i class="fab"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="Python">Python</div>
+              <div class="icon-container" data-tooltip="Python">
+                <div class="text-box">Python</div>
+                <i class="fab"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="Node-JS">Node JS</div>
+              <div class="icon-container" data-tooltip="Node-JS">
+                <div class="text-box">Node JS</div>
+                <i class="fab"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="React-JS">React JS</div>
+              <div class="icon-container" data-tooltip="React-JS">
+                <div class="text-box">React JS</div>
+                <i class="fab"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="UI">UI</div>
+              <div class="icon-container" data-tooltip="UI">
+                <div class="text-box">UI</div>
+                <i class="fas"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="Graphics">Graphics</div>
+              <div class="icon-container" data-tooltip="Graphics">
+                <div class="text-box">Graphics</div>
+                <i class="fas"><img src="assets/img/languages/web-design.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="React-Native">React Native</div>
+              <div class="icon-container" data-tooltip="React-Native">
+                <div class="text-box">React Native</div>
+                <i class="fab"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
+              </div>
+              <div class="tooltip" id="Java">Java</div>
+              <div class="icon-container" data-tooltip="Java">
+                <div class="text-box">Java</div>
+                <i class="fab"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
+              </div>
             </div>
-
-            <div class="icon-container" data-tooltip="PHP">
-              <i class="fab"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="Python">
-              <i class="fab"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="Node JS">
-              <i class="fab"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="React JS">
-              <i class="fab"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="UI">
-              <i class="fas"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="Graphics">
-              <i class="fas"><img src="assets/img/languages/web-design.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="React Native">
-              <i class="fab"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
-            </div>
-
-            <div class="icon-container" data-tooltip="Java">
-              <i class="fab"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
-            </div>
-
         </div>
         </center>
 
@@ -963,6 +974,66 @@
       </div>
     </section><!-- End Testimonials Section -->
 
+<!-- ======= Blog Section ======= -->
+<section id="blog" class="padd-sectio">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center">
+      <h2>Latest posts</h2>
+      <p class="separator">Some News About our Leaders</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+      <!-- Box 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="block-blog text-left">
+          <a href="https://www.animationxpress.com/latest-news/sm-multimedias-snowy-maths-aims-to-amplify-calculation-and-time-management-skills-among-players/">
+            <img src="https://www.animationxpress.com/wp-content/uploads/2019/06/collage-new.jpg" alt="img" width="356px" height="199px">
+          </a>
+          <div class="content-blog">
+            <h4>
+              <a href="https://www.animationxpress.com/latest-news/sm-multimedias-snowy-maths-aims-to-amplify-calculation-and-time-management-skills-among-players/">SM Multimedia’s ‘Snowy Maths’ aims to amplify calculation and time management skills among players</a>
+            </h4>
+            <span>03/06/2019</span>
+            <a class="float-end readmore" href="https://www.animationxpress.com/latest-news/sm-multimedias-snowy-maths-aims-to-amplify-calculation-and-time-management-skills-among-players/">read more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="block-blog text-left">
+          <a href="https://www.animationxpress.com/games/sm-multimedia-aims-to-set-a-trend-of-mythology-in-casual-mobile-gaming-with-saint-vs-danav/">
+            <img src="https://www.animationxpress.com/wp-content/uploads/2020/08/1.png" class="img-responsive" alt="img" width="356px" height="199px">
+          </a>
+          <div class="content-blog">
+            <h4>
+              <a href="https://www.animationxpress.com/games/sm-multimedia-aims-to-set-a-trend-of-mythology-in-casual-mobile-gaming-with-saint-vs-danav/">SM Multimedia aims to set a trend of mythology in casual mobile gaming with ‘Saint vs Danav’</a>
+            </h4>
+            <span>07/08/2020</span>
+            <a class="float-end readmore" href="https://www.animationxpress.com/games/sm-multimedia-aims-to-set-a-trend-of-mythology-in-casual-mobile-gaming-with-saint-vs-danav/">read more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="block-blog text-left">
+          <a href="#">
+            <img src="assets/img/blog/blog-image-3.jpg" class="img-responsive" alt="img" width="356px" height="199px">
+          </a>
+          <div class="content-blog">
+            <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+            <span>05, juin 2017</span>
+            <a class="float-end readmore" href="#">read more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- End Blog Section -->
+
     <!-- ======= Pricing Section ======= -->
     <!-- <section id="pricing" class="pricing">
       <div class="container">
@@ -1238,7 +1309,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>Contact Us about any inquiry</p>
         </div>
 
         <div class="row contact-info">
@@ -1421,6 +1492,52 @@
 
     document.getElementById("video-popup").addEventListener("click", function () {
       document.getElementById("video-popup").style.display = "none";
+    });
+  </script>
+  <!-- Include jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".icon-container").click(function () {
+        // Get the tooltip associated with the clicked icon
+        var tooltipId = $(this).data("tooltip");
+        var tooltip = $("#" + tooltipId);
+
+        // Toggle the visibility of the tooltip
+        tooltip.toggle();
+
+        // Optionally, hide the tooltip after 3 seconds
+        setTimeout(function () {
+          tooltip.fadeOut();
+        }, 3000);
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".icon-container").on('click touchstart', function (e) {
+        e.preventDefault();
+
+        // Get the tooltip associated with the clicked/touched icon
+        var tooltipId = $(this).data("tooltip");
+        var tooltip = $("#" + tooltipId);
+
+        // Log to console for debugging
+        console.log('Tooltip ID:', tooltipId);
+
+        // Toggle the visibility of the tooltip
+        tooltip.fadeToggle();
+
+        // Log to console for debugging
+        console.log('Tooltip visibility:', tooltip.is(':visible'));
+
+        // If tooltip is visible, fade it out after 3 seconds
+        if (tooltip.is(':visible')) {
+          setTimeout(function () {
+            tooltip.fadeOut();
+          }, 3000);
+        }
+      });
     });
   </script>
 </body>

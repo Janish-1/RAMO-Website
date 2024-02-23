@@ -829,18 +829,12 @@ section {
   opacity: 0;
   visibility: hidden;
   background-color: #2d6a92;
-  /* Change background color */
   color: #fff;
   padding: 8px;
-  /* Increase padding for better readability */
   border-radius: 15px;
-  /* Round the corners more */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  /* Add a subtle box shadow */
   transition: opacity 0.3s ease-in-out;
-  z-index: 1;
   font-size: 12px;
-  /* Adjust the font size as per your preference */
 }
 
 .icon-container:hover:before {
@@ -1095,6 +1089,14 @@ section {
 
 #clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #25466d;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* Apply the hover effect only for screens wider than 768px (adjust as needed) */
+  #clients img {
+    opacity: 1;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1456,7 +1458,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #25466d;
 }
 
 #contact .contact-info address,
@@ -1478,7 +1480,7 @@ section {
 }
 
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: #25466d;
 }
 
 #contact .contact-address,
@@ -1525,7 +1527,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #25466d;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1545,7 +1547,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #25466d;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1568,7 +1570,7 @@ section {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #25466d;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1577,7 +1579,7 @@ section {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #13a456;
+  background: #25466d;
 }
 
 @keyframes animate-loading {
@@ -2363,7 +2365,8 @@ section {
   font-weight: 700;
   font-size: 48px;
   color: #fff;
-  opacity: 0.9; /* Adjust the opacity for the desired level of visibility */
+  opacity: 0.9;
+  /* Adjust the opacity for the desired level of visibility */
 }
 
 .video-section i {
@@ -2462,11 +2465,13 @@ section {
 
 #video-section .text-container {
   z-index: 5;
-  position: relative; /* Ensure a stacking context for z-index to work properly */
+  position: relative;
+  /* Ensure a stacking context for z-index to work properly */
 }
 
 #video-icon {
-  z-index: 10; /* Ensure the play icon is above other elements */
+  z-index: 10;
+  /* Ensure the play icon is above other elements */
 }
 
 /* Additional styles for a better play button experience */
@@ -2485,15 +2490,20 @@ section {
   height: 100%;
   width: 100%;
 }
+
 #services .feature-block {
   background: #fff none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
-  width: 100%; /* Take up full width */
-  max-width: 400px; /* Set a maximum width */
-  margin: 0 auto; /* Center the feature block */
-  box-sizing: border-box; /* Include padding and border in the total width */
+  width: 100%;
+  /* Take up full width */
+  max-width: 400px;
+  /* Set a maximum width */
+  margin: 0 auto;
+  /* Center the feature block */
+  box-sizing: border-box;
+  /* Include padding and border in the total width */
 }
 
 #services .feature-block img {
@@ -2501,7 +2511,8 @@ section {
   margin-bottom: 30px;
   width: 60px;
   display: block;
-  margin: 0 auto; /* Center the image */
+  margin: 0 auto;
+  /* Center the image */
 }
 
 #services .feature-block:hover {
@@ -2519,6 +2530,113 @@ section {
   color: black;
 }
 
-#services .feature-block a{
+#services .feature-block a {
   color: #5aaaff;
+}
+
+/* Tooltips Services
+=========================== */
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  margin-left: 40%;
+  display: none;
+  position: absolute;
+  background-color: #5aaaff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  width: 20vw;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip.show {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .tooltip {
+    margin-left: 40%;
+    display: block;
+    position: absolute;
+    background-color: #5aaaff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    width: 20vw;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.text-box {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .text-box {
+    display: block;
+  }
+}
+
+
+/* Blog Section
+--------------------------------*/
+@media (max-width: 991px) {
+  #blog .block-blog {
+    margin-bottom: 30px;
+  }
+}
+
+#blog .block-blog img {
+  width: 100%;
+}
+
+#blog .block-blog .content-blog {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  min-height: 125px;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+#blog .block-blog .content-blog h4 {
+  line-height: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  letter-spacing: 0;
+  font-size: 16px;
+}
+
+#blog .block-blog .content-blog h4 a {
+  color: #555;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#blog .block-blog .content-blog h4 a:hover {
+  color: #71c55d;
+}
+
+#blog .block-blog .content-blog>span {
+  float: left;
+  font-size: 12px;
+}
+
+#blog .block-blog .content-blog a.readmore {
+  color: #505050;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+#blog .block-blog .content-blog a.readmore:hover {
+  color: #71c55d;
 }

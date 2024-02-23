@@ -167,9 +167,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
@@ -177,7 +177,7 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        portfolioIsotope.on('arrangeComplete', function () {
           AOS.refresh()
         });
       }, true);
@@ -227,11 +227,11 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       },
       480: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20
       },
       640: {
@@ -274,34 +274,39 @@
     }
   });
 
-  // Portfolio Slider
-
-  document.addEventListener('DOMContentLoaded', function () {
-    // Initialize Swiper
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },  
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+  new Swiper('.swiper-container', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
       },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 20
       },
-      breakpoints: {
-        // When window width is <= 768px
-        768: {
-          slidesPerView: 1,
-        }
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 20
       }
-    });
+    }
   });
-  
+
   /**
    * Animation on scroll
    */
