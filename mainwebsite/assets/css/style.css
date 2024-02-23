@@ -353,7 +353,7 @@ h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%);
+  background: #5aaaff;
   padding: 0;
 }
 
@@ -364,7 +364,8 @@ h6 {
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 70vh;
+  background-color: #5aaaff;
+  height: 90vh;
   padding-top: 100px;
 }
 
@@ -414,6 +415,31 @@ h6 {
 
 #hero .btn-get-started:hover {
   background: #ef6603;
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero .social-links {
+  margin: 0 0 40px 0;
+}
+
+#hero .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #25466d;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#hero .social-links a:hover {
+  background: #bd5102;
   color: #fff;
   text-decoration: none;
 }
@@ -625,13 +651,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #25466d;
+  color: #5aaaff;
 }
 
 .features .nav-link.active {
-  background: #25466d;
+  background: #5aaaff;
   color: #fff;
-  border-color: #25466d;
+  border-color: #5aaaff;
 }
 
 @media (max-width: 768px) {
@@ -736,7 +762,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#services {
+/* #services {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
@@ -769,7 +795,7 @@ section {
 }
 
 #services .box:hover .title a {
-  color: #25466d;
+  color: #5aaaff;
 }
 
 #services .description {
@@ -777,7 +803,7 @@ section {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Skills
@@ -1693,20 +1719,20 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white; /* Set the color to white or the background color of your choice */
-  clip-path: polygon(
-    0% 0%, 10% 0%, 0% 10%,
-    100% 0%, 90% 0%, 100% 10%,
-    0% 100%, 10% 100%, 0% 90%,
-    100% 100%, 90% 100%, 100% 90%
-  );
+  background: white;
+  /* Set the color to white or the background color of your choice */
+  clip-path: polygon(0% 0%, 10% 0%, 0% 10%,
+      100% 0%, 90% 0%, 100% 10%,
+      0% 100%, 10% 100%, 0% 90%,
+      100% 100%, 90% 100%, 100% 90%);
   z-index: -1;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
 
 #footer.shattered-effect:hover::before {
-  opacity: 1; /* Show the shatter effect on hover */
+  opacity: 1;
+  /* Show the shatter effect on hover */
 }
 
 /* Sections Header
@@ -2006,11 +2032,9 @@ section {
   top: 0;
   border-radius: 0.6em;
   margin-top: -0.25em;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.3)
-  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3));
 }
 
 #career .label {
@@ -2284,11 +2308,9 @@ section {
   top: 0;
   border-radius: 0.6em;
   margin-top: -0.25em;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.3)
-  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3));
 }
 
 #testform .label {
@@ -2316,4 +2338,187 @@ section {
 
 #testform button:active {
   transform: scale(0.97);
+}
+
+/* Video Section
+================================ */
+.video-section {
+  position: relative;
+  background: url(../img/video-bg.jpg) no-repeat fixed center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.video-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(122, 96, 255, 0.9), rgba(205, 159, 250, 0.9));
+}
+
+.video-section h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+  opacity: 0.9; /* Adjust the opacity for the desired level of visibility */
+}
+
+.video-section i {
+  display: block;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #8e1efc;
+  color: #fff;
+  font-size: 30px;
+  line-height: 70px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.video-section i:hover {
+  background: #6b1585;
+}
+
+.video-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-popup .video-src {
+  position: relative;
+  width: 700px;
+  max-width: 80%;
+}
+
+.video-popup .iframe-src {
+  width: 100%;
+  height: 0;
+  padding-top: 56.3%;
+  position: relative;
+}
+
+.video-popup .iframe-src iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-section .section-padding {
+  padding: 80px 0px;
+}
+
+#video-section .relative {
+  position: relative;
+}
+
+#video-section {
+  padding: 0;
+  margin: 0;
+}
+
+#video-section body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+#video-section a {
+  color: #5f0099;
+}
+
+#video-section a:hover {
+  color: #5f0099;
+}
+
+#video-section h1,
+#video-section h2,
+#video-section h3 {
+  font-weight: 700;
+}
+
+#video-section h4,
+#video-section h5 {
+  font-weight: 600;
+}
+
+#video-section h6 {
+  font-weight: 500;
+}
+
+#video-section .text-container {
+  z-index: 5;
+  position: relative; /* Ensure a stacking context for z-index to work properly */
+}
+
+#video-icon {
+  z-index: 10; /* Ensure the play icon is above other elements */
+}
+
+/* Additional styles for a better play button experience */
+#video-icon {
+  transition: transform 0.3s ease;
+}
+
+#video-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Features Section
+--------------------------------*/
+#services {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+#services .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%; /* Take up full width */
+  max-width: 400px; /* Set a maximum width */
+  margin: 0 auto; /* Center the feature block */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+#services .feature-block img {
+  height: 60px;
+  margin-bottom: 30px;
+  width: 60px;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+#services .feature-block:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#services .feature-block h4 {
+  margin-bottom: 20px;
+  color: #5aaaff;
+}
+
+#services .feature-block p {
+  margin-bottom: 0;
+  color: black;
+}
+
+#services .feature-block a{
+  color: #5aaaff;
 }

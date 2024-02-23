@@ -247,7 +247,10 @@
         <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
             class="bx bxl-linkedin"></i></a>
       </div>
-      <a href="#">Privacy Policy</a>
+      <a href="#"><i class="fa fa-apple fa-3x"></i>| App Store |</a>
+      <a href="#"><i class="fa fa-play fa-3x"></i> Google Play |</a>
+      <a href="http://ramo.co.in"><i class="fa fa-windows fa-3x"></i> Windows |</a>
+      <a href="#">Privacy Policy |</a>
       <div class="copyright">
         &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
       </div>

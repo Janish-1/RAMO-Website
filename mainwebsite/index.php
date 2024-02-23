@@ -9,6 +9,14 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Linking to External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
   <!-- Favicons -->
   <link href="assets/img/logo-1.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -95,11 +103,18 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>RAMO</span></h2>
-          <img src="assets/img/hero-img-removebg-preview.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
-          <p class="animate__animated fanimate__adeInUp">We're an IT firm specializing in web, game, and application
-            development. Our dedicated team crafts
-            innovative solutions, ensuring your digital presence stands out. Let's shape the future together.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <img src="assets/img/hero-img-removebg-preview_s6howa.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+          <br>
+          <div class="btns">
+            <div class="social-links">
+              <a href="https://www.facebook.com/ramopvtltd?mibextid=ZbWKwL" class="facebook"><i
+                  class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/ramopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ramopvtltd/mycompany/" class="linkedin"><i
+                  class="bx bxl-linkedin"></i></a>
+              <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -351,7 +366,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services">
+    <!-- <section id="services">
       <div class="container" data-aos="fade-up">
 
         <header class="section-headera wow fadeInUp">
@@ -410,7 +425,119 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> -->
+    <!-- End Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="services" class="padd-section text-center">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Services</h2>
+          <p class="separator">Explore our diverse range of services tailored to meet your every need. </p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <!-- Feature Block 1 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_a.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/paint-palette.svg" alt="img">
+                <h4>Website Development</h4>
+                <p>Elevate your online presence with our website development service. We create sleek and functional
+                  websites tailored to your unique needs.</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Feature Block 2 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_b.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/code.svg" alt="img">
+                <h4>Mobile App Development</h4>
+                <p>Step into the world of mobile innovation with our app development service. We bring your ideas to
+                  life,
+                  creating user-friendly and feature-rich mobile applications.</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Feature Block 3 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_c.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/design-tool.svg" alt="img">
+                <h4>Graphic Designing</h4>
+                <p>Make a lasting impression with our graphic designing service. Our creative team turns ideas into
+                  visually stunning designs.</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Feature Block 4 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_d.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/asteroid.svg" alt="img">
+                <h4>Game Development</h4>
+                <p>Immerse your audience in captivating gaming experiences with our game development service. Our
+                  game-making capabilities ensure your games stand out in the competitive market.</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Feature Block 5 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_e.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/cloud-computing.svg" alt="img">
+                <h4>Application Development</h4>
+                <p>Embrace innovation with our application development service. We design and develop robust
+                  applications
+                  for both mobile and desktop platforms.</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Feature Block 6 -->
+          <div class="col-md-6 col-lg-3">
+            <a href="pages/service_f.php" class="feature-link">
+              <div class="feature-block">
+                <img src="assets/img/svg/planet.svg" alt="img">
+                <h4>Digital Marketing</h4>
+                <p>Boost your online presence and reach a wider audience with our digital marketing service. We employ
+                  strategic approaches to enhance your brand visibility, engage your target audience, and drive results.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-------Video Start------->
+    <section class="video-section relative text-center white">
+      <div class="section-padding video-overlay">
+        <div class="container">
+          <div class="text-container">
+            <h3>Watch Now</h3>
+            <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+          </div>
+          <div class="video-popup" id="video-popup">
+            <div class="video-src">
+              <div class="iframe-src">
+                <iframe width="949" height="712" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Me at the zoo"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------Video End------->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills">
@@ -426,40 +553,39 @@
           <center>
 
             <div class="icon-container" data-tooltip="Unity">
-              <i class="fab fa-unity"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/unity.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="PHP">
-              <i class="fab fa-php"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/php.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="Python">
-              <i class="fab fa-python"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/python.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="Node JS">
-              <i class="fab fa-node-js"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/node-js.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="React JS">
-              <i class="fab fa-react"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/react.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="UI">
-              <i class="fas fa-desktop"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
+              <i class="fas"><img src="assets/img/languages/ui.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="Graphics">
-              <i class="fas fa-paint-brush"><img src="assets/img/languages/web-design.png" width="150px"
-                  height="150px"></i>
+              <i class="fas"><img src="assets/img/languages/web-design.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="React Native">
-              <i class="fab fa-react"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/physics.png" width="150px" height="150px"></i>
             </div>
 
             <div class="icon-container" data-tooltip="Java">
-              <i class="fab fa-java"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
+              <i class="fab"><img src="assets/img/languages/java.png" width="150px" height="150px"></i>
             </div>
 
         </div>
@@ -739,7 +865,7 @@
             <div class="swiper-slide"><img src="assets/logos/11.pujan-path.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logos/12.chandrani-weighbridge.png" class="img-fluid" alt="">
             </div>
-            <div class="swiper-slide"><img src="assets/logos/13.our_logo.png" class="img-fluid" alt="">
+            <div class="swiper-slide"><img src="assets/logos/13.talent-gurukul.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -1189,7 +1315,10 @@
             class="bx bxl-linkedin"></i></a>
         <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
       </div>
-      <a href="./policies/privacy_policy.php"><span>Privacy Policy</span></a>
+      <a href="#"><i class="fa-3x"></i>| App Store |</a>
+      <a href="#"><i class="fa-3x"></i> Google Play |</a>
+      <a href="http://ramo.co.in"><i class="fa-3x"></i> Windows |</a>
+      <a href="./policies/privacy_policy.php"><span>Privacy Policy |</span></a>
       <div class="copyright">
         &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
       </div>
@@ -1251,6 +1380,47 @@
           },
         });
       }
+    });
+  </script>
+  <script>
+    wow = new WOW();
+    wow.init();
+    $(document).ready(function (e) {
+
+      $('#video-icon').on('click', function (e) {
+        e.preventDefault();
+        $('.video-popup').css('display', 'flex');
+        $('.iframe-src').slideDown();
+      });
+      $('.video-popup').on('click', function (e) {
+        var $target = e.target.nodeName;
+        var video_src = $(this).find('iframe').attr('src');
+        if ($target != 'IFRAME') {
+          $('.video-popup').fadeOut();
+          $('.iframe-src').slideUp();
+          $('.video-popup iframe').attr('src', " ");
+          $('.video-popup iframe').attr('src', video_src);
+        }
+      });
+
+      $('.slider').bxSlider({
+        pager: false
+      });
+    });
+  </script>
+  <script src="assets/js/scrollIt.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script>
+    document.getElementById("video-icon").addEventListener("click", function () {
+      document.getElementById("video-popup").style.display = "flex";
+    });
+
+    document.getElementById("video-popup").addEventListener("click", function () {
+      document.getElementById("video-popup").style.display = "none";
     });
   </script>
 </body>

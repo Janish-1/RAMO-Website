@@ -274,14 +274,17 @@
     }
   });
 
-  /**
- * Portfolio slider
- */
+  // Portfolio Slider
+
   document.addEventListener('DOMContentLoaded', function () {
     // Initialize Swiper
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 10,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },  
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -290,9 +293,15 @@
         el: '.swiper-pagination',
         clickable: true,
       },
+      breakpoints: {
+        // When window width is <= 768px
+        768: {
+          slidesPerView: 1,
+        }
+      }
     });
   });
-
+  
   /**
    * Animation on scroll
    */

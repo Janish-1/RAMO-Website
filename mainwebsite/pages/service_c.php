@@ -165,7 +165,10 @@
                 <a href="https://wa.me/9977696444" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
 
             </div>
-            <a href="../policies/privacy_policy.php">Privacy Policy</a>
+            <a href="#"><i class="fa fa-apple fa-3x"></i>| App Store |</a>
+            <a href="#"><i class="fa fa-play fa-3x"></i> Google Play |</a>
+            <a href="http://ramo.co.in"><i class="fa fa-windows fa-3x"></i> Windows |</a>
+            <a href="../policies/privacy_policy.php">Privacy Policy |</a>
             <div class="copyright">
                 &copy; 2024<span> RAMO PVT LTD</span>. ALL RIGHTS RESERVED BY RAMO PVT LTD
             </div>
