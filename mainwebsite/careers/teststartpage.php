@@ -208,7 +208,8 @@
 
             // Perform a GET request
             $.ajax({
-                type: 'GET',
+                type: 'POST',
+                data: {testid:testId },
                 url: apiUrl,
                 success: function (response) {
                     // Check the response and handle accordingly
