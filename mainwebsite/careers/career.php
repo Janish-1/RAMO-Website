@@ -132,7 +132,7 @@
                 </div>
                 <div class="form-row">
                   <div class="input-data">
-                    <input type="tel" name="contact" title="Please enter only numbers" required autocomplete="tel">
+                    <input type="tel" name="contactnumber" title="Please enter only numbers" required autocomplete="tel">
                     <div class="underline"></div>
                     <label for="contact">Contact Number</label>
                   </div>
