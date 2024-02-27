@@ -204,7 +204,7 @@
             var testId = $('input[name="testid"]').val();
 
             // Build the URL with the testid parameter
-            var apiUrl = 'http://127.0.0.1:8000/api/redirecttest?testid=' + encodeURIComponent(testId);
+            var apiUrl = 'http://crm.ramo.co.in/api/redirecttest?testid=' + encodeURIComponent(testId);
 
             // Perform a GET request
             $.ajax({

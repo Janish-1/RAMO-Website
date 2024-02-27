@@ -251,7 +251,7 @@
         var formData = new FormData(document.getElementById('careerForm'));
 
         // Your API endpoint URL
-        var apiEndpoint = "http://127.0.0.1:8000/api/createcareer";
+        var apiEndpoint = "http://crm.ramo.co.in/api/createcareer";
 
         // Use AJAX to submit the form data
         $.ajax({
