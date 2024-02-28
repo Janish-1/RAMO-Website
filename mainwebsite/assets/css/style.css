@@ -1978,7 +1978,7 @@ section {
   background: none;
   border: none;
   color: black;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1986,6 +1986,7 @@ section {
   position: relative;
   z-index: 2;
   width: 100%;
+  overflow:visible;
   /* Adjusted to 100% */
 }
 
