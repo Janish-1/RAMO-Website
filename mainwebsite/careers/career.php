@@ -1,58 +1,11 @@
 <?php
+include('sendEmailFunction.php');
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $recipientEmail = $_POST['mail'];  // Candidate's email address
-    $subject = "Career Form Submission";
+    $recipient = $_POST['mail'];  // Candidate's email address
 
-    // Establish a connection to your MySQL database
-    $mysqli = new mysqli("bxxpoqzk3juujbentkjy-mysql.services.clever-cloud.com", "uklqinemfthwbg5x", "4kf0cSUOp8agjefAF7VC", "bxxpoqzk3juujbentkjy");
-
-    // Check the connection
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
-
-    // Sanitize the email input to prevent SQL injection
-    $recipientEmail = $mysqli->real_escape_string($recipientEmail);
-
-    // Execute your MySQL query to fetch the test ID with teststatus pending
-    $query = "SELECT testid FROM test_for_user_careers WHERE mail='$recipientEmail' AND teststatus='pending'";
-    $result = $mysqli->query($query);
-
-    // Check if the query was successful
-    if ($result && $result->num_rows > 0) {
-        $row = $result->fetch_assoc();
-        $testId = $row['testid'];
-
-        // Close the database connection
-        $mysqli->close();
-
-        $message = "Dear " . $_POST['name'] . ",\n";
-        $message .= "Thank you for submitting your career form.\n";
-        $message .= "Your Test ID is: " . $testId . "\n";
-        $message .= "Use this ID to start the test.\n";
-
-        // Additional headers
-        $headers = "From: noreply@ramo.co.in\r\n";
-        $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-
-        // Return-Path or Envelope From address
-        $additional_parameters = "-f noreply@ramo.co.in";
-
-        // Recipient email address
-        $to = $recipientEmail;
-
-        // Send the email
-        if (mail($to, $subject, $message, $headers, $additional_parameters)) {
-            // Email sent successfully
-            $response = array('success' => true, 'testId' => $testId);
-        } else {
-            // Email sending failed
-            $response = array('success' => false, 'error' => 'Error sending email');
-        }
-    } else {
-        // No pending test found for the given email
-        $response = array('success' => false, 'error' => 'No pending test found for the given email');
-    }
+    // Call the function from the included file
+    $response = sendEmail($recipient, $_POST['name']);
 
     // Convert the response array to JSON format
     echo json_encode($response);
@@ -181,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <div class="text">
                 Career Form
               </div>
-              <form id="careerForm" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+              <form id="careerForm" method="POST" action="sendemail.php">
                 <div class="form-row">
                   <div class="input-data">
                     <input type="text" name="name" required autocomplete="name">
@@ -336,11 +289,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
 
             if (response.success) {
-              // Data stored successfully, you can redirect or display a success message
-              alert("Form submitted successfully! Check your Email for the Test Code to start the test." + "Test Id: " + response.career.testid);
-              document.getElementById("careerForm").reset();
-              // // Introduce a delay before redirection (e.g., 1 second)
-              window.location.href = "/careers/teststartpage.php"
+                // Data stored successfully, you can redirect or display a success message
+                alert("Form submitted successfully! Check your Email for the Test Code to start the test." + "Test Id: " + response.career.testid);
+                document.getElementById("careerForm").reset();
+                // Introduce a delay before redirection (e.g., 1 second)
+                // window.location.href = "/careers/teststartpage.php"
             } else {
               // API request failed, handle the error
               alert("Error: " + (response.error ? response.error : "Unknown error"));
