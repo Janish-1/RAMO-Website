@@ -1,18 +1,50 @@
 <?php
-include('sendEmailFunction.php');
-
+// Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $recipient = $_POST['mail'];  // Candidate's email address
+    // Define your email and database configurations
+    $to_email = $_POST["mail"]; // Change this to your email address
+    $from_email = "noreply@ramo.co.in";
+    $subject = "Data Deletion Request Recieved";
+    $message = "Name: " . $_POST["name"] . "\n";
+    $message .= "Email: " . $_POST["mail"] . "\n";
+    $message .= "Contact Number: " . $_POST["contactnumber"] . "\n";
+    $message .= "Data Domain: " . $_POST["category"] . "\n";
 
-    // Call the function from the included file
-    $response = sendEmail($recipient, $_POST['name']);
+    // Send email
+    if (mail($to_email, $subject, $message, "From: $from_email")) {
+        echo '<div class="alert alert-success" role="alert">Email sent successfully!</div>';
 
-    // Convert the response array to JSON format
-    echo json_encode($response);
-} else {
-    // Invalid request method
-    $response = array('success' => false, 'error' => 'Invalid request method');
-    echo json_encode($response);
+        // Save form data to database (replace with your database logic)
+        $servername = "localhost";
+        $username = "root";
+        $password = "janish11";
+        $dbname = "ramowebsite";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        // Prepare and bind SQL statement (replace with your table and column names)
+        $stmt = $conn->prepare("INSERT INTO datadeletion (name, email, contactnumber, category) VALUES (?, ?, ?, ?)");
+        $stmt->bind_param("ssss", $_POST["name"], $_POST["mail"], $_POST["contactnumber"], $_POST["category"]);
+
+        // Execute SQL statement
+        if ($stmt->execute()) {
+            echo '<div class="alert alert-success" role="alert">Data deletion request sent!</div>';
+        } else {
+            echo '<div class="alert alert-danger" role="alert">Error: ' . $conn->error . '</div>';
+        }
+
+        // Close connection
+        $stmt->close();
+        $conn->close();
+    } else {
+        echo '<div class="alert alert-danger" role="alert">Failed to send email.</div>';
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -73,32 +105,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="../index.php#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="../index.php#about">About</a></li>
-          <li><a class="nav-link scrollto" href="../index.php#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="../index.php#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="../index.php#clients">Client</a></li>
-          <li><a class="nav-link scrollto" href="#">Careers</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a class="nav-link scrollto" href="../index.php#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.php#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="index.php#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.php#clients">Client</a></li>
+          <li><a class="nav-link scrollto" href="./careers/career.php">Careers</a></li>
+          <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -124,17 +137,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <div class="container">
         <div class="section-title" data-aos="zoom-out">
-          <h2>Career</h2>
-          <p>Career Form</p>
+          <h2>Data Form</h2>
+          <p>Data Deletion</p>
         </div>
 
         <div class="row content" data-aos="fade-up">
           <div>
             <div class="container">
               <div class="text">
-                Career Form
+                Delete your Data Here!
               </div>
-              <form id="careerForm" method="POST" action="sendemail.php">
+              <form id="careerForm" method="POST">
                 <div class="form-row">
                   <div class="input-data">
                     <input type="text" name="name" required autocomplete="name">
@@ -155,38 +168,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <label for="contact">Contact Number</label>
                   </div>
                   <div class="input-data">
-                    <label for="category">Category/Position</label><br>
+                    <label for="category">Data Domain</label><br>
                     <select name="category" required autocomplete="category">
                       <option value="" disabled selected>Select Category</option>
-                      <option value="SeniorFullStack5PlusYears">Senior Full Stack- 5+ Years</option>
-                      <option value="SeniorUnityGameDeveloper">Senior Unity Game Developer</option>
-                      <option value="GameDesigner">Game Designer</option>
-                      <option value="BackendGameDeveloper">Backend Game Developer</option>
-                      <option value="SalesAssociate(Telecaller)">Sales Associate (Telecaller)</option>
-                      <option value="SalesTeamLead">Sales Team Lead</option>
-                      <option value="SalesManager">Sales Manager</option>
-                      <option value="IonicDeveloper">Ionic Developer</option>
-                      <option value="SeniorReactNativeDeveloper">Senior React Native Developer</option>
-                      <option value="DigitalMarketingAssistant">Digital Marketing Assistant</option>
-                      <option value="GraphicDesigner">Graphic Designer</option>
-                      <option value="DevOps">DevOps</option>
-                      <option value="QualityAssurance">Quality Assurance</option>
+                      <option value="lsdriverapp">LS Drive - Driver Connect</option>
+                      <option value="lsuserapp">LS Drive - User App</option>
+                      <option value="pujanpaath">Pujanpaath</option>
                     </select>
                     <div class="underline"></div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="input-data">
-                    <input type="number" name="experience" title="Please enter only numbers" required
-                      autocomplete="experience">
-                    <div class="underline"></div>
-                    <label for="experience">Experience</label>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="input-data"><br>
-                    <input type="file" name="cv" accept=".pdf, .doc, .docx" required autocomplete="file">
-                    <label for="cv">Upload CV:</label>
                   </div>
                 </div>
                 <div class="form-row">
@@ -195,9 +184,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   </div>
                   <div class="input-data">
                     <button type="button" onclick="clearForm()">Clear Form</button>
-                  </div>
-                  <div class="input-link">
-                    <a href="teststartpage.php">Already sent a request? Click here to check and take the test.</a>
                   </div>
                 </div>
               </form>
@@ -261,73 +247,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <!-- Include Waypoint library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
   <script>
-    $(document).ready(function () {
-      $('#careerForm').submit(function (e) {
-        e.preventDefault(); // Prevent the form from submitting in the default way
-
-        // Get form data
-        var formData = new FormData(document.getElementById('careerForm'));
-
-        // Your API endpoint URL
-        var apiEndpoint = "https://crm-project-l6cl.onrender.com/api/createcareer";
-
-        // Use AJAX to submit the form data
-        $.ajax({
-          type: 'POST',
-          url: apiEndpoint,
-          data: formData,
-          dataType: 'json',
-          processData: false,
-          contentType: false,
-          success: function (response) {
-            // Log the response to the console for debugging
-            console.log(response);
-
-            // Check if the response is a string, and if so, parse it as JSON
-            if (typeof response === 'string') {
-              response = JSON.parse(response);
-            }
-
-            if (response.success) {
-                // Data stored successfully, you can redirect or display a success message
-                alert("Form submitted successfully! Check your Email for the Test Code to start the test.");
-                document.getElementById("careerForm").reset();
-                // Introduce a delay before redirection (e.g., 1 second)
-                // window.location.href = "/careers/teststartpage.php"
-            } else {
-              // API request failed, handle the error
-              alert("Error: " + (response.error ? response.error : "Unknown error"));
-            }
-          },
-          error: function (xhr, status, error) {
-            // Log detailed error information to the console for debugging
-            console.error(xhr.responseText);
-
-            // Handle AJAX errors
-            alert("AJAX error: " + error);
-          }
-        });
-      });
-    });
-  </script>
-  <script>
     // JavaScript function to clear the form fields
     function clearForm() {
       document.getElementById("careerForm").reset();
     }
-  </script>
-  <script>
-    function showPopup() {
-      document.getElementById('popupContainer').style.display = 'flex';
-    }
-
-    function closePopup() {
-      document.getElementById('popupContainer').style.display = 'none';
-    }
-    // Automatically show the popup when the page loads
-    document.addEventListener('DOMContentLoaded', function () {
-      showPopup();
-    });
   </script>
 </body>
 

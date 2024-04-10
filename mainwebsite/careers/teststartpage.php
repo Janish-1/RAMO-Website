@@ -114,7 +114,7 @@
                                         <label for="test_id">Test ID</label>
                                     </div>
                                 </div>
-                                <div class="form-row submit-btn">
+                                <div class="form-row">
                                     <div class="input-data">
                                         <button type="submit" onclick="submitForm()">Submit</button>
                                     </div>
